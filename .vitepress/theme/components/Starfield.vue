@@ -1,106 +1,77 @@
 
 <script setup>
-import { onMounted, onBeforeUnmount, ref } from 'vue'
+import { onMounted, onUnmounted, ref, watch } from 'vue'
+import { useData } from 'vitepress'
 
-const canvas = ref(null)
+const { isDark } = useData()
+const canvasRef = ref(null)
+let ctx, w, h, animationFrame
+let stars = []
+
+const createStars = () => {
+    stars = []
+    const count = 150
+    for (let i = 0; i < count; i++) {
+        stars.push({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            size: Math.random() * 2,
+            opacity: Math.random(),
+            speed: Math.random() * 0.05 + 0.01
+        })
+    }
+}
+
+const draw = () => {
+    ctx.clearRect(0, 0, w, h)
+
+    // Select color based on theme
+    const color = isDark.value ? '255, 255, 255' : '79, 70, 229' // White or Indigo
+
+    stars.forEach(s => {
+        ctx.beginPath()
+        ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2)
+        ctx.fillStyle = `rgba(${color}, ${s.opacity})`
+        ctx.fill()
+
+        s.opacity += s.speed
+        if (s.opacity > 1 || s.opacity < 0.1) s.speed = -s.speed
+    })
+    animationFrame = requestAnimationFrame(draw)
+}
+
+const handleResize = () => {
+    w = canvasRef.value.width = window.innerWidth
+    h = canvasRef.value.height = window.innerHeight
+    createStars()
+}
 
 onMounted(() => {
-  const ctx = canvas.value.getContext('2d')
-  let width, height, stars = []
+    ctx = canvasRef.value.getContext('2d')
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    draw()
+})
 
-  const STAR_COUNT = 1000
-  const POLARIS_X = 0.5
-  const POLARIS_Y = 0.2 // Higher up
-  const ROTATION_SPEED = 0.00005 // Slower, more majestic
-
-  const resize = () => {
-    width = window.innerWidth
-    height = window.innerHeight
-    canvas.value.width = width
-    canvas.value.height = height
-    initStars()
-  }
-
-  const initStars = () => {
-    stars = []
-    for (let i = 0; i < STAR_COUNT; i++) {
-      // Use polar coordinates for more natural circular distribution
-      const angle = Math.random() * Math.PI * 2
-      const distance = Math.sqrt(Math.random()) * Math.max(width, height) * 1.5
-
-      const star = {
-        angle: angle,
-        distance: distance,
-        radius: Math.random() * 1.5,
-        alpha: Math.random(),
-        blinkDir: Math.random() > 0.5 ? 1 : -1,
-        blinkSpeed: 0.005 + Math.random() * 0.01,
-        color: Math.random() > 0.8 ? (Math.random() > 0.5 ? '#93c5fd' : '#fde68a') : '#ffffff'
-      }
-      stars.push(star)
-    }
-  }
-
-  const draw = () => {
-    const isDark = document.documentElement.classList.contains('dark')
-    ctx.clearRect(0, 0, width, height)
-
-    if (!isDark) return;
-
-    // Background Gradient for depth
-    const gradient = ctx.createRadialGradient(
-      width * POLARIS_X, height * POLARIS_Y, 0,
-      width * POLARIS_X, height * POLARIS_Y, Math.max(width, height)
-    )
-    gradient.addColorStop(0, '#0f172a')
-    gradient.addColorStop(0.5, '#020617')
-    gradient.addColorStop(1, '#000000')
-    ctx.fillStyle = gradient
-    ctx.fillRect(0, 0, width, height)
-
-    stars.forEach(star => {
-      // Majestic rotation around Polaris
-      star.angle += ROTATION_SPEED
-
-      const x = (width * POLARIS_X) + Math.cos(star.angle) * star.distance
-      const y = (height * POLARIS_Y) + Math.sin(star.angle) * star.distance
-
-      // Natural twinkling
-      star.alpha += star.blinkSpeed * star.blinkDir
-      if (star.alpha >= 1 || star.alpha <= 0.2) star.blinkDir *= -1
-
-      ctx.globalAlpha = star.alpha
-      ctx.fillStyle = star.color
-      ctx.beginPath()
-      ctx.arc(x, y, star.radius, 0, Math.PI * 2)
-      ctx.fill()
-    })
-
-    requestAnimationFrame(draw)
-  }
-
-  window.addEventListener('resize', resize)
-  resize()
-  requestAnimationFrame(draw)
-
-  onBeforeUnmount(() => {
-    window.removeEventListener('resize', resize)
-  })
+onUnmounted(() => {
+    window.removeEventListener('resize', handleResize)
+    cancelAnimationFrame(animationFrame)
 })
 </script>
 
 <template>
-  <canvas ref="canvas" class="starfield"></canvas>
+    <canvas ref="canvasRef" class="starfield"></canvas>
 </template>
 
 <style scoped>
 .starfield {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-  pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    transition: background 0.5s ease;
 }
 </style>

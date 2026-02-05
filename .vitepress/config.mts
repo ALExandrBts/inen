@@ -1,131 +1,173 @@
-
 import { defineConfig } from 'vitepress'
-
-export default defineConfig({
-    title: "Олександр Снігірьов",
-    description: "Досьє та Заява про Права",
-
-    head: [
-        ['link', { rel: 'icon', href: '/assets/alexander.jpeg' }]
-    ],
-
-    locales: {
-        root: {
-            label: 'Українська',
-            lang: 'uk',
-            themeConfig: {
-                nav: [
-                    { text: 'Листи', link: '/letters/mfa_iceland' },
-                    { text: 'Портфоліо', link: '/portfolio' }
-                ],
-                sidebar: [
-                    {
-                        text: 'Досьє',
-                        items: [
-                            { text: 'Історія та Статус', link: '/' },
-                            { text: 'Інженерне Портфоліо', link: '/portfolio' }
-                        ]
-                    },
-                    {
-                        text: 'Офіційні Листи',
-                        items: [
-                            { text: 'МЗС Ісландії', link: '/letters/mfa_iceland' }
-                        ]
-                    }
-                ],
-            }
-        },
-        en: {
-            label: 'English',
-            lang: 'en',
-            link: '/en/',
-            themeConfig: {
-                nav: [
-                    { text: 'Letters', link: '/en/letters/mfa_iceland' },
-                    { text: 'Portfolio', link: '/en/portfolio' }
-                ],
-                sidebar: [
-                    {
-                        text: 'Dossier',
-                        items: [
-                            { text: 'Story & Status', link: '/en/' },
-                            { text: 'Engineering Portfolio', link: '/en/portfolio' }
-                        ]
-                    },
-                    {
-                        text: 'Official Letters',
-                        items: [
-                            { text: 'Iceland MFA', link: '/en/letters/mfa_iceland' }
-                        ]
-                    }
-                ]
-            }
-        },
-        de: {
-            label: 'Deutsch',
-            lang: 'de',
-            themeConfig: {
-                nav: [
-                    { text: 'Briefe', link: '/de/letters/germany_appeal' },
-                    { text: 'Portfolio', link: '/de/portfolio' }
-                ],
-                sidebar: [
-                    {
-                        text: 'Akte',
-                        items: [
-                            { text: 'Geschichte & Status', link: '/de/' },
-                            { text: 'Ingenieur-Portfolio', link: '/de/portfolio' }
-                        ]
-                    },
-                    {
-                        text: 'Offizielle Briefe',
-                        items: [
-                            { text: 'Deutschland Appell', link: '/de/letters/germany_appeal' }
-                        ]
-                    }
-                ]
-            }
-        },
-        is: {
-            label: 'Íslenska',
-            lang: 'is',
-            themeConfig: {
-                nav: [
-                    { text: 'Bréf', link: '/is/letters/mfa_iceland' },
-                    { text: 'Verkefni', link: '/is/portfolio' }
-                ],
-                sidebar: [
-                    {
-                        text: 'Skjöl',
-                        items: [
-                            { text: 'Saga og Staða', link: '/is/' },
-                            { text: 'Verkefnasafn', link: '/is/portfolio' }
-                        ]
-                    },
-                    {
-                        text: 'Opinber Bréf',
-                        items: [
-                            { text: 'Mótmæli til Þýskalands', link: '/is/letters/germany_appeal' }
-                        ]
-                    }
-                ]
-            }
-        },
-        no: { label: 'Norsk', lang: 'no', themeConfig: { nav: [{ text: 'Portefølje', link: '/no/portfolio' }], sidebar: [{ text: 'Portefølje', link: '/no/portfolio' }] } },
-        sv: { label: 'Svenska', lang: 'sv', themeConfig: { nav: [{ text: 'Portfölj', link: '/sv/portfolio' }], sidebar: [{ text: 'Portfölj', link: '/sv/portfolio' }] } },
-        fi: { label: 'Suomi', lang: 'fi', themeConfig: { nav: [{ text: 'Portfolio', link: '/fi/portfolio' }], sidebar: [{ text: 'Portfolio', link: '/fi/portfolio' }] } },
-        da: { label: 'Dansk', lang: 'da', themeConfig: { nav: [{ text: 'Portefølje', link: '/da/portfolio' }], sidebar: [{ text: 'Portefølje', link: '/da/portfolio' }] } },
-        nl: { label: 'Nederlands', lang: 'nl', themeConfig: { nav: [{ text: 'Portfolio', link: '/nl/portfolio' }], sidebar: [{ text: 'Portfolio', link: '/nl/portfolio' }] } }
-    },
-
-    themeConfig: {
-        socialLinks: [
-            { icon: 'github', link: 'https://github.com/ALExandrBts/inen' }
+export default defineConfig({ title: "Олександр Снігірьов", locales: {
+    root: {
+      label: 'Українська',
+      lang: 'uk',
+      
+      themeConfig: {
+        docFooter: { prev: 'Попередня', next: 'Наступна' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Листи', link: '/letters/mfa_iceland' },
+            { text: 'Портфоліо', link: '/portfolio' }
         ],
-        footer: {
-            message: 'Released under Natural Law.',
-            copyright: 'Copyright © 2026 Aleksandr Snigirev'
-        },
-        outline: 'deep'
-    }
-})
+        sidebar: [
+            { text: 'Досьє', items: [
+                { text: 'Історія', link: '/history' },
+                { text: 'Портфоліо', link: '/portfolio' }
+            ]},
+            { text: 'Листи', items: [{ text: 'МЗС Ісландії', link: '/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      link: '/en/',
+      themeConfig: {
+        docFooter: { prev: 'Previous page', next: 'Next page' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/en/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/en/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/en/history' },
+                { text: 'Portfolio', link: '/en/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/en/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    de: {
+      label: 'Deutsch',
+      lang: 'de',
+      link: '/de/',
+      themeConfig: {
+        docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/de/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/de/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/de/history' },
+                { text: 'Portfolio', link: '/de/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/de/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    is: {
+      label: 'Íslenska',
+      lang: 'is',
+      link: '/is/',
+      themeConfig: {
+        docFooter: { prev: 'Fyrri síða', next: 'Næsta síða' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/is/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/is/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/is/history' },
+                { text: 'Portfolio', link: '/is/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/is/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    no: {
+      label: 'Norsk',
+      lang: 'no',
+      link: '/no/',
+      themeConfig: {
+        docFooter: { prev: 'Forrige side', next: 'Neste side' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/no/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/no/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/no/history' },
+                { text: 'Portfolio', link: '/no/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/no/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    sv: {
+      label: 'Svenska',
+      lang: 'sv',
+      link: '/sv/',
+      themeConfig: {
+        docFooter: { prev: 'Föregående sida', next: 'Nästa sida' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/sv/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/sv/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/sv/history' },
+                { text: 'Portfolio', link: '/sv/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/sv/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    fi: {
+      label: 'Suomi',
+      lang: 'fi',
+      link: '/fi/',
+      themeConfig: {
+        docFooter: { prev: 'Edellinen sivu', next: 'Seuraava sivu' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/fi/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/fi/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/fi/history' },
+                { text: 'Portfolio', link: '/fi/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/fi/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    da: {
+      label: 'Dansk',
+      lang: 'da',
+      link: '/da/',
+      themeConfig: {
+        docFooter: { prev: 'Forrige side', next: 'Næste side' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/da/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/da/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/da/history' },
+                { text: 'Portfolio', link: '/da/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/da/letters/mfa_iceland' }] }
+        ]
+      }
+    },
+    nl: {
+      label: 'Nederlands',
+      lang: 'nl',
+      link: '/nl/',
+      themeConfig: {
+        docFooter: { prev: 'Vorige pagina', next: 'Volgende pagina' }, // LOCALIZED FOOTER NAV
+        nav: [
+            { text: 'Letters', link: '/nl/letters/mfa_iceland' },
+            { text: 'Portfolio', link: '/nl/portfolio' }
+        ],
+        sidebar: [
+            { text: 'Dossier', items: [
+                { text: 'Story', link: '/nl/history' },
+                { text: 'Portfolio', link: '/nl/portfolio' }
+            ]},
+            { text: 'Letters', items: [{ text: 'Iceland MFA', link: '/nl/letters/mfa_iceland' }] }
+        ]
+      }
+    }}, themeConfig: { socialLinks: [{ icon: 'github', link: 'https://github.com/ALExandrBts/inen' }] } })

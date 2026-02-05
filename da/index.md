@@ -1,63 +1,81 @@
 ---
 layout: home
 title: Aleksandr Snigirev
-
 hero:
   name: "Aleksandr Snigirev"
-  text: "Levende Menneske. Ingeniør. Suveræn."
-  tagline: "Jeg er ikke en ressource. Jeg er en skaber."
+  text: "Living Man. Engineer. Sovereign."
+  tagline: "I am not a resource. I am a creator."
   image:
     src: /assets/alexander.jpeg
-    alt: Aleksandr Snigirev
   actions:
     - theme: brand
-      text: Nærværserklæring
-      link: /da/letters/mfa_iceland
+      text: "Notice of Presence"
+      link: ./letters/mfa_iceland
     - theme: alt
-      text: Se Portefølje
-      link: /da/portfolio
-
+      text: "View Portfolio"
+      link: ./portfolio
 features:
-  - title: "Den Suveræne"
-    details: "Genvinding af status som Levende Menneske under Naturret. Afvisning af 'Persona'-fiktionen."
+  - title: "Sovereign"
+    details: "Reclaiming status as a Living Man under Natural Law. Rejection of the 'Person' fiction."
     icon: ⚖️
-  - title: "Ingeniøren"
-    details: "Skaber af UCTS, Solar-H2 og Moss Tile. Jeg bygger fremtidens energi."
+  - title: "Engineer"
+    details: "Creator of UCTS, Solar-H2, and Moss Tile. Building the future of energy."
     icon: 🛠️
-  - title: "Overlevende"
-    details: "Overlevende fra folkedrab og krig. Fra Donbass til tysk bureaukrati."
+  - title: "Survivor"
+    details: "Survived genocide, war, and systemic oppression. From Donbass to German bureaucracy."
     icon: 🔥
 ---
 
-## Uretfærdighedens Tidslinje
+## Timeline of Injustice
 
+<div class="home-container">
 <div class="timeline">
-  <div class="event">
-    <div class="year">1993-2001</div>
-    <div class="content">
-      <p>Caught in the collapse of the USSR.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2014</div>
-    <div class="content">
-      <p>War in Donbass.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2024</div>
-    <div class="content">
-      <p>Systemic oppression and bureaucratic torture.</p>
-    </div>
-  </div>
+
+<div class="event">
+  <div class="year">1993-2001</div>
+  <div class="content"><h3 class="no-hash">Citizenship Trap</h3><p>Born in Donbass, a land of labor and great challenges. My childhood was marked by a legal anomaly. Holding two passports (Ukraine/Russia) due to the USSR collapse, I became a hostage of a system that used this collision as a weapon against my sovereignty.</p></div>
 </div>
 
-<div id="portfolio" style="margin-top: 4rem;"></div>
+<div class="event">
+  <div class="year">2014</div>
+  <div class="content"><h3 class="no-hash">War in Donbass</h3><p>War took my home, my family, and my sense of stability. After 2014, my property was illegally alienated. This was the beginning of my journey as a human who must defend his right to exist.</p></div>
+</div>
 
-## Manifesto
+<div class="event">
+  <div class="year">2017</div>
+  <div class="content"><h3 class="no-hash">Engineering Breakthrough</h3><p>I did not give up. Creating the UCTS prototype was the result of my desire to turn destruction into energy. This is an engineering answer to the ecological crisis.</p></div>
+</div>
 
-> "Vi skal redde os selv som mennesker for at redde menneskeheden."
+<div class="event">
+  <div class="year">2021</div>
+  <div class="content"><h3 class="no-hash">Global Recognition</h3><p>The Solar-H2 patent was recognized as an innovative solution for the maritime industry. Global recognition of my developments confirmed that I am on the right path.</p></div>
+</div>
 
----
+<div class="event">
+  <div class="year">2023</div>
+  <div class="content"><h3 class="no-hash">Eco-Integration</h3><p>Development of Moss Tile — a natural urban cooling system. Integrating technology into nature for a balanced and sovereign future.</p></div>
+</div>
 
-*Contact:* [GitHub](https://github.com/ALExandrBts)
+<div class="event">
+  <div class="year">2024</div>
+  <div class="content"><h3 class="no-hash">Systemic Oppression</h3><p>Today I am fighting against bureaucratic oppression in Germany. Deprivation of rights to medical assistance and movement is a modern form of torture aimed at breaking the will. But I am a Living Man, and I continue to create.</p></div>
+</div>
+</div>
+<div style="text-align: center; margin-top: 2rem;"><a href="./history" class="link">Read detailed history →</a></div>
+</div>
+
+## Engineering Solutions
+
+<div class="home-container">
+<div class="grid">
+  <div class="card" onclick="window.open('https://ucts.solutions', '_blank')"><h3>UCTS</h3><p>Turning toxic red mud into energy storage.</p></div>
+  <div class="card" onclick="window.open('https://h2gen.legalgreenplanet.tech', '_blank')"><h3>Solar-H₂ Boost</h3><p>Hybrid maritime propulsion (Hydrogen + Solar).</p></div>
+  <div class="card" onclick="window.open('https://moss.legalgreenplanet.tech', '_blank')"><h3>Moss Tile</h3><p>Living roof system (Moss).</p></div>
+</div>
+
+<div class="contact-grid" style="margin-top: 3rem;">
+  <a href="mailto:legalgreenplanet@gmail.com" class="contact-card"><span>✉️ Email</span><b>legalgreenplanet@gmail.com</b></a>
+  <a href="tel:+4917688173516" class="contact-card"><span>📱 Phone</span><b>+49 176 88173516</b></a>
+</div>
+
+</div>

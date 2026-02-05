@@ -1,103 +1,81 @@
 ---
 layout: home
-
+title: Aleksandr Snigirev
 hero:
   name: "Aleksandr Snigirev"
   text: "Living Man. Engineer. Sovereign."
   tagline: "I am not a resource. I am a creator."
   image:
     src: /assets/alexander.jpeg
-    alt: Aleksandr Snigirev
   actions:
     - theme: brand
-      text: Notice of Presence
-      link: /en/letters/mfa_iceland
+      text: "Notice of Presence"
+      link: ./letters/mfa_iceland
     - theme: alt
-      text: View Portfolio
-      link: /en/portfolio
-
+      text: "View Portfolio"
+      link: ./portfolio
 features:
   - title: "Sovereign"
-    details: "Reclaiming status as a Living Man under Natural Law. Rejection of the 'Person' fiction (resource/slave) imposed by corporate states."
+    details: "Reclaiming status as a Living Man under Natural Law. Rejection of the 'Person' fiction."
     icon: ⚖️
   - title: "Engineer"
-    details: "Creator of UCTS (Ceramic Storage), Solar-H2 (Hybrid Ships), and Moss Tile (Eco-Roofs). Building the future of energy and ecology."
+    details: "Creator of UCTS, Solar-H2, and Moss Tile. Building the future of energy."
     icon: 🛠️
   - title: "Survivor"
-    details: "Survived genocide, war, and systemic oppression. From Donbass conflict (2014) to police brutality in Lviv (2022) and bureaucratic torture in Germany (2024)."
+    details: "Survived genocide, war, and systemic oppression. From Donbass to German bureaucracy."
     icon: 🔥
 ---
 
-<style>
-  :root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-  }
-</style>
-
 ## Timeline of Injustice
 
+<div class="home-container">
 <div class="timeline">
-  <div class="event">
-    <div class="year">1993-2001</div>
-    <div class="content">
-      <h3>Dual Citizenship Trap</h3>
-      <p>Caught in the USSR collapse. Forced to hold two passports (Ukraine/Russia) as a child, creating a legal vulnerability later weaponized to deny basic rights.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2014</div>
-    <div class="content">
-      <h3>War in Donbass</h3>
-      <p>The beginning of loss. Destruction of home, family, and stability. Displaced by a conflict fueled by corporate interests.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2022</div>
-    <div class="content">
-      <h3>Lviv Incident</h3>
-      <p>Fleeing war, met with internal terror. Police in Bibrka rob and beat a refugee. Threats of execution for the "wrong" passport. The state becomes a predator.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2024</div>
-    <div class="content">
-      <h3>German Cold</h3>
-      <p>Seeking safety, meeting cold bureaucracy. Denied medical help during hypertensive crisis. Thrown into the cold without clothes by police. Fined for being a victim of assault.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2026</div>
-    <div class="content">
-      <h3>Deportation & Death Threat</h3>
-      <p>Denied work permit. Ordered deportation to a war zone. <b>"It reminds me of Germany 1930s,"</b> where victims paid for their own execution.</p>
-    </div>
-  </div>
+
+<div class="event">
+  <div class="year">1993-2001</div>
+  <div class="content"><h3 class="no-hash">Citizenship Trap</h3><p>Born in Donbass, a land of labor and great challenges. My childhood was marked by a legal anomaly. Holding two passports (Ukraine/Russia) due to the USSR collapse, I became a hostage of a system that used this collision as a weapon against my sovereignty.</p></div>
 </div>
 
-<div id="portfolio" style="margin-top: 4rem;"></div>
+<div class="event">
+  <div class="year">2014</div>
+  <div class="content"><h3 class="no-hash">War in Donbass</h3><p>War took my home, my family, and my sense of stability. After 2014, my property was illegally alienated. This was the beginning of my journey as a human who must defend his right to exist.</p></div>
+</div>
+
+<div class="event">
+  <div class="year">2017</div>
+  <div class="content"><h3 class="no-hash">Engineering Breakthrough</h3><p>I did not give up. Creating the UCTS prototype was the result of my desire to turn destruction into energy. This is an engineering answer to the ecological crisis.</p></div>
+</div>
+
+<div class="event">
+  <div class="year">2021</div>
+  <div class="content"><h3 class="no-hash">Global Recognition</h3><p>The Solar-H2 patent was recognized as an innovative solution for the maritime industry. Global recognition of my developments confirmed that I am on the right path.</p></div>
+</div>
+
+<div class="event">
+  <div class="year">2023</div>
+  <div class="content"><h3 class="no-hash">Eco-Integration</h3><p>Development of Moss Tile — a natural urban cooling system. Integrating technology into nature for a balanced and sovereign future.</p></div>
+</div>
+
+<div class="event">
+  <div class="year">2024</div>
+  <div class="content"><h3 class="no-hash">Systemic Oppression</h3><p>Today I am fighting against bureaucratic oppression in Germany. Deprivation of rights to medical assistance and movement is a modern form of torture aimed at breaking the will. But I am a Living Man, and I continue to create.</p></div>
+</div>
+</div>
+<div style="text-align: center; margin-top: 2rem;"><a href="./history" class="link">Read detailed history →</a></div>
+</div>
 
 ## Engineering Solutions
 
+<div class="home-container">
 <div class="grid">
-  <div class="card" onclick=\"window.open('https://ucts.solutions', '_blank')\">
-    <h3>🌱 UCTS</h3>
-    <p><b>Upcycled Ceramic Thermal Storage.</b> Turning toxic red mud into energy ($13.6/kWh). <br><a href="https://ucts.solutions" target="_blank">ucts.solutions</a></p>
-  </div>
-  <div class="card" onclick=\"window.open('https://h2gen.legalgreenplanet.tech', '_blank')\">
-    <h3>⚡ Solar-H₂ Boost</h3>
-    <p><b>Hybrid Maritime Propulsion.</b> Hydrogen injection + Solar panels. <br><a href="https://h2gen.legalgreenplanet.tech" target="_blank">h2gen.legalgreenplanet.tech</a></p>
-  </div>
-  <div class="card" onclick=\"window.open('https://moss.legalgreenplanet.tech', '_blank')\">
-    <h3>🏠 Moss Tile</h3>
-    <p><b>Living Roof System.</b> Eco-composite tiles for Nordic climates. <br><a href="https://moss.legalgreenplanet.tech" target="_blank">moss.legalgreenplanet.tech</a></p>
-  </div>
+  <div class="card" onclick="window.open('https://ucts.solutions', '_blank')"><h3>UCTS</h3><p>Turning toxic red mud into energy storage.</p></div>
+  <div class="card" onclick="window.open('https://h2gen.legalgreenplanet.tech', '_blank')"><h3>Solar-H₂ Boost</h3><p>Hybrid maritime propulsion (Hydrogen + Solar).</p></div>
+  <div class="card" onclick="window.open('https://moss.legalgreenplanet.tech', '_blank')"><h3>Moss Tile</h3><p>Living roof system (Moss).</p></div>
 </div>
 
-## Manifesto
+<div class="contact-grid" style="margin-top: 3rem;">
+  <a href="mailto:legalgreenplanet@gmail.com" class="contact-card"><span>✉️ Email</span><b>legalgreenplanet@gmail.com</b></a>
+  <a href="tel:+4917688173516" class="contact-card"><span>📱 Phone</span><b>+49 176 88173516</b></a>
+</div>
 
-> "We must save ourselves as humans to save humanity. Today I see the system grinding people like grain in a mill. I refuse to be flour. I am the seed."
-
----
-
-*Contact:* [GitHub](https://github.com/ALExandrBts)
+</div>

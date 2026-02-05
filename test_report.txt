@@ -1,367 +1,601 @@
 
-Running 24 tests using 1 worker
+Running 90 tests using 1 worker
 
-  ✓   1 tests/generated_comprehensive.spec.js:5:9 › Global Visuals › Starfield Canvas exists and is animated (497ms)
-  ✓   2 tests/generated_comprehensive.spec.js:12:9 › Global Visuals › Light mode has Sky animation check (181ms)
-  ✓   3 tests/generated_comprehensive.spec.js:27:13 › Multilingual Integrity & Link Soundness › UK Locale › Home Navigation & Core Links (265ms)
-  ✓   4 tests/generated_comprehensive.spec.js:54:13 › Multilingual Integrity & Link Soundness › UK Locale › Page Health: /portfolio (327ms)
-  ✓   5 tests/generated_comprehensive.spec.js:81:13 › Multilingual Integrity & Link Soundness › UK Locale › Page Health: /letters/mfa_iceland (337ms)
-  ✓   6 tests/generated_comprehensive.spec.js:112:13 › Multilingual Integrity & Link Soundness › EN Locale › Home Navigation & Core Links (227ms)
-  ✘   7 tests/generated_comprehensive.spec.js:139:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/portfolio (277ms)
-  ✘   8 tests/generated_comprehensive.spec.js:166:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/letters/mfa_iceland (338ms)
-  ✓   9 tests/generated_comprehensive.spec.js:197:13 › Multilingual Integrity & Link Soundness › DE Locale › Home Navigation & Core Links (375ms)
-  ✘  10 tests/generated_comprehensive.spec.js:224:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/portfolio (316ms)
-  ✘  11 tests/generated_comprehensive.spec.js:251:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/letters/germany_appeal (365ms)
-  ✓  12 tests/generated_comprehensive.spec.js:282:13 › Multilingual Integrity & Link Soundness › IS Locale › Home Navigation & Core Links (311ms)
-  ✘  13 tests/generated_comprehensive.spec.js:309:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/portfolio (267ms)
-  ✘  14 tests/generated_comprehensive.spec.js:336:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/letters/mfa_iceland (422ms)
-  ✘  15 tests/generated_comprehensive.spec.js:367:13 › Multilingual Integrity & Link Soundness › NO Locale › Home Navigation & Core Links (267ms)
-  ✘  16 tests/generated_comprehensive.spec.js:393:13 › Multilingual Integrity & Link Soundness › NO Locale › Page Health: /no/portfolio (295ms)
-  ✘  17 tests/generated_comprehensive.spec.js:424:13 › Multilingual Integrity & Link Soundness › SV Locale › Home Navigation & Core Links (270ms)
-  ✘  18 tests/generated_comprehensive.spec.js:450:13 › Multilingual Integrity & Link Soundness › SV Locale › Page Health: /sv/portfolio (290ms)
-  ✘  19 tests/generated_comprehensive.spec.js:481:13 › Multilingual Integrity & Link Soundness › FI Locale › Home Navigation & Core Links (271ms)
-  ✘  20 tests/generated_comprehensive.spec.js:507:13 › Multilingual Integrity & Link Soundness › FI Locale › Page Health: /fi/portfolio (341ms)
-  ✘  21 tests/generated_comprehensive.spec.js:538:13 › Multilingual Integrity & Link Soundness › DA Locale › Home Navigation & Core Links (275ms)
-  ✘  22 tests/generated_comprehensive.spec.js:564:13 › Multilingual Integrity & Link Soundness › DA Locale › Page Health: /da/portfolio (288ms)
-  ✘  23 tests/generated_comprehensive.spec.js:595:13 › Multilingual Integrity & Link Soundness › NL Locale › Home Navigation & Core Links (274ms)
-  ✘  24 tests/generated_comprehensive.spec.js:621:13 › Multilingual Integrity & Link Soundness › NL Locale › Page Health: /nl/portfolio (313ms)
+  ✓   1 tests/generated_comprehensive.spec.js:9:13 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Navigation Labels Check (969ms)
+  ✓   2 tests/generated_comprehensive.spec.js:18:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: / › Status & Sidebar Visibility (145ms)
+  ✓   3 tests/generated_comprehensive.spec.js:29:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: / › Layout Integrity: / (199ms)
+  ✓   4 tests/generated_comprehensive.spec.js:43:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: / › Link Prefix Check: / (194ms)
+  ✓   5 tests/generated_comprehensive.spec.js:70:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: /portfolio › Status & Sidebar Visibility (221ms)
+  ✓   6 tests/generated_comprehensive.spec.js:81:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: /portfolio › Layout Integrity: /portfolio (288ms)
+  ✓   7 tests/generated_comprehensive.spec.js:95:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: /portfolio › Link Prefix Check: /portfolio (323ms)
+  ✓   8 tests/generated_comprehensive.spec.js:122:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: /letters/mfa_iceland › Status & Sidebar Visibility (265ms)
+  ✓   9 tests/generated_comprehensive.spec.js:133:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: /letters/mfa_iceland › Layout Integrity: /letters/mfa_iceland (156ms)
+  ✓  10 tests/generated_comprehensive.spec.js:147:17 › Extreme Multilingual Audit (150+ Checks) › UK Deep Verification › Route: /letters/mfa_iceland › Link Prefix Check: /letters/mfa_iceland (183ms)
+  ✓  11 tests/generated_comprehensive.spec.js:177:13 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Navigation Labels Check (766ms)
+  ✓  12 tests/generated_comprehensive.spec.js:186:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/ › Status & Sidebar Visibility (145ms)
+  ✓  13 tests/generated_comprehensive.spec.js:197:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/ › Layout Integrity: /en/ (208ms)
+  ✘  14 tests/generated_comprehensive.spec.js:211:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/ › Link Prefix Check: /en/ (203ms)
+  ✓  15 tests/generated_comprehensive.spec.js:238:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/portfolio › Status & Sidebar Visibility (415ms)
+  ✓  16 tests/generated_comprehensive.spec.js:249:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/portfolio › Layout Integrity: /en/portfolio (275ms)
+  ✘  17 tests/generated_comprehensive.spec.js:263:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/portfolio › Link Prefix Check: /en/portfolio (223ms)
+  ✓  18 tests/generated_comprehensive.spec.js:290:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/letters/mfa_iceland › Status & Sidebar Visibility (222ms)
+  ✓  19 tests/generated_comprehensive.spec.js:301:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/letters/mfa_iceland › Layout Integrity: /en/letters/mfa_iceland (164ms)
+  ✘  20 tests/generated_comprehensive.spec.js:315:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/letters/mfa_iceland › Link Prefix Check: /en/letters/mfa_iceland (223ms)
+  ✓  21 tests/generated_comprehensive.spec.js:345:13 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Navigation Labels Check (813ms)
+  ✓  22 tests/generated_comprehensive.spec.js:354:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/ › Status & Sidebar Visibility (186ms)
+  ✓  23 tests/generated_comprehensive.spec.js:365:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/ › Layout Integrity: /de/ (217ms)
+  ✘  24 tests/generated_comprehensive.spec.js:379:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/ › Link Prefix Check: /de/ (249ms)
+  ✓  25 tests/generated_comprehensive.spec.js:406:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/portfolio › Status & Sidebar Visibility (384ms)
+  ✓  26 tests/generated_comprehensive.spec.js:417:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/portfolio › Layout Integrity: /de/portfolio (259ms)
+  ✘  27 tests/generated_comprehensive.spec.js:431:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/portfolio › Link Prefix Check: /de/portfolio (265ms)
+  ✓  28 tests/generated_comprehensive.spec.js:458:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/letters/mfa_iceland › Status & Sidebar Visibility (229ms)
+  ✓  29 tests/generated_comprehensive.spec.js:469:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/letters/mfa_iceland › Layout Integrity: /de/letters/mfa_iceland (136ms)
+  ✘  30 tests/generated_comprehensive.spec.js:483:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/letters/mfa_iceland › Link Prefix Check: /de/letters/mfa_iceland (208ms)
+  ✓  31 tests/generated_comprehensive.spec.js:513:13 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Navigation Labels Check (818ms)
+  ✓  32 tests/generated_comprehensive.spec.js:522:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/ › Status & Sidebar Visibility (140ms)
+  ✓  33 tests/generated_comprehensive.spec.js:533:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/ › Layout Integrity: /is/ (219ms)
+  ✘  34 tests/generated_comprehensive.spec.js:547:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/ › Link Prefix Check: /is/ (212ms)
+  ✓  35 tests/generated_comprehensive.spec.js:574:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/portfolio › Status & Sidebar Visibility (241ms)
+  ✓  36 tests/generated_comprehensive.spec.js:585:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/portfolio › Layout Integrity: /is/portfolio (228ms)
+  ✘  37 tests/generated_comprehensive.spec.js:599:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/portfolio › Link Prefix Check: /is/portfolio (226ms)
+  ✓  38 tests/generated_comprehensive.spec.js:626:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/letters/mfa_iceland › Status & Sidebar Visibility (231ms)
+  ✓  39 tests/generated_comprehensive.spec.js:637:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/letters/mfa_iceland › Layout Integrity: /is/letters/mfa_iceland (139ms)
+  ✘  40 tests/generated_comprehensive.spec.js:651:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/letters/mfa_iceland › Link Prefix Check: /is/letters/mfa_iceland (215ms)
+  ✓  41 tests/generated_comprehensive.spec.js:681:13 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Navigation Labels Check (807ms)
+  ✓  42 tests/generated_comprehensive.spec.js:690:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/ › Status & Sidebar Visibility (144ms)
+  ✓  43 tests/generated_comprehensive.spec.js:701:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/ › Layout Integrity: /no/ (197ms)
+  ✘  44 tests/generated_comprehensive.spec.js:715:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/ › Link Prefix Check: /no/ (231ms)
+  ✓  45 tests/generated_comprehensive.spec.js:742:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/portfolio › Status & Sidebar Visibility (222ms)
+  ✓  46 tests/generated_comprehensive.spec.js:753:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/portfolio › Layout Integrity: /no/portfolio (223ms)
+  ✘  47 tests/generated_comprehensive.spec.js:767:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/portfolio › Link Prefix Check: /no/portfolio (220ms)
+  ✓  48 tests/generated_comprehensive.spec.js:794:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/letters/mfa_iceland › Status & Sidebar Visibility (220ms)
+  ✓  49 tests/generated_comprehensive.spec.js:805:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/letters/mfa_iceland › Layout Integrity: /no/letters/mfa_iceland (141ms)
+  ✘  50 tests/generated_comprehensive.spec.js:819:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/letters/mfa_iceland › Link Prefix Check: /no/letters/mfa_iceland (217ms)
+  ✓  51 tests/generated_comprehensive.spec.js:849:13 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Navigation Labels Check (802ms)
+  ✓  52 tests/generated_comprehensive.spec.js:858:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/ › Status & Sidebar Visibility (143ms)
+  ✓  53 tests/generated_comprehensive.spec.js:869:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/ › Layout Integrity: /sv/ (196ms)
+  ✘  54 tests/generated_comprehensive.spec.js:883:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/ › Link Prefix Check: /sv/ (229ms)
+  ✓  55 tests/generated_comprehensive.spec.js:910:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/portfolio › Status & Sidebar Visibility (241ms)
+  ✓  56 tests/generated_comprehensive.spec.js:921:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/portfolio › Layout Integrity: /sv/portfolio (221ms)
+  ✘  57 tests/generated_comprehensive.spec.js:935:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/portfolio › Link Prefix Check: /sv/portfolio (223ms)
+  ✓  58 tests/generated_comprehensive.spec.js:962:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/letters/mfa_iceland › Status & Sidebar Visibility (217ms)
+  ✓  59 tests/generated_comprehensive.spec.js:973:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/letters/mfa_iceland › Layout Integrity: /sv/letters/mfa_iceland (140ms)
+  ✘  60 tests/generated_comprehensive.spec.js:987:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/letters/mfa_iceland › Link Prefix Check: /sv/letters/mfa_iceland (214ms)
+  ✓  61 tests/generated_comprehensive.spec.js:1017:13 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Navigation Labels Check (826ms)
+  ✓  62 tests/generated_comprehensive.spec.js:1026:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/ › Status & Sidebar Visibility (139ms)
+  ✓  63 tests/generated_comprehensive.spec.js:1037:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/ › Layout Integrity: /fi/ (197ms)
+  ✘  64 tests/generated_comprehensive.spec.js:1051:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/ › Link Prefix Check: /fi/ (220ms)
+  ✓  65 tests/generated_comprehensive.spec.js:1078:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/portfolio › Status & Sidebar Visibility (282ms)
+  ✓  66 tests/generated_comprehensive.spec.js:1089:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/portfolio › Layout Integrity: /fi/portfolio (242ms)
+  ✘  67 tests/generated_comprehensive.spec.js:1103:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/portfolio › Link Prefix Check: /fi/portfolio (218ms)
+  ✓  68 tests/generated_comprehensive.spec.js:1130:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/letters/mfa_iceland › Status & Sidebar Visibility (220ms)
+  ✓  69 tests/generated_comprehensive.spec.js:1141:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/letters/mfa_iceland › Layout Integrity: /fi/letters/mfa_iceland (137ms)
+  ✘  70 tests/generated_comprehensive.spec.js:1155:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/letters/mfa_iceland › Link Prefix Check: /fi/letters/mfa_iceland (215ms)
+  ✓  71 tests/generated_comprehensive.spec.js:1185:13 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Navigation Labels Check (810ms)
+  ✓  72 tests/generated_comprehensive.spec.js:1194:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/ › Status & Sidebar Visibility (144ms)
+  ✓  73 tests/generated_comprehensive.spec.js:1205:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/ › Layout Integrity: /da/ (199ms)
+  ✘  74 tests/generated_comprehensive.spec.js:1219:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/ › Link Prefix Check: /da/ (215ms)
+  ✓  75 tests/generated_comprehensive.spec.js:1246:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/portfolio › Status & Sidebar Visibility (223ms)
+  ✓  76 tests/generated_comprehensive.spec.js:1257:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/portfolio › Layout Integrity: /da/portfolio (217ms)
+  ✘  77 tests/generated_comprehensive.spec.js:1271:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/portfolio › Link Prefix Check: /da/portfolio (223ms)
+  ✓  78 tests/generated_comprehensive.spec.js:1298:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/letters/mfa_iceland › Status & Sidebar Visibility (219ms)
+  ✓  79 tests/generated_comprehensive.spec.js:1309:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/letters/mfa_iceland › Layout Integrity: /da/letters/mfa_iceland (136ms)
+  ✘  80 tests/generated_comprehensive.spec.js:1323:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/letters/mfa_iceland › Link Prefix Check: /da/letters/mfa_iceland (216ms)
+  ✓  81 tests/generated_comprehensive.spec.js:1353:13 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Navigation Labels Check (812ms)
+  ✓  82 tests/generated_comprehensive.spec.js:1362:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/ › Status & Sidebar Visibility (155ms)
+  ✓  83 tests/generated_comprehensive.spec.js:1373:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/ › Layout Integrity: /nl/ (229ms)
+  ✘  84 tests/generated_comprehensive.spec.js:1387:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/ › Link Prefix Check: /nl/ (252ms)
+  ✓  85 tests/generated_comprehensive.spec.js:1414:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/portfolio › Status & Sidebar Visibility (242ms)
+  ✓  86 tests/generated_comprehensive.spec.js:1425:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/portfolio › Layout Integrity: /nl/portfolio (225ms)
+  ✘  87 tests/generated_comprehensive.spec.js:1439:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/portfolio › Link Prefix Check: /nl/portfolio (223ms)
+  ✓  88 tests/generated_comprehensive.spec.js:1466:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/letters/mfa_iceland › Status & Sidebar Visibility (219ms)
+  ✓  89 tests/generated_comprehensive.spec.js:1477:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/letters/mfa_iceland › Layout Integrity: /nl/letters/mfa_iceland (138ms)
+  ✘  90 tests/generated_comprehensive.spec.js:1491:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/letters/mfa_iceland › Link Prefix Check: /nl/letters/mfa_iceland (220ms)
 
 
-  1) tests/generated_comprehensive.spec.js:139:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/portfolio 
+  1) tests/generated_comprehensive.spec.js:211:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/ › Link Prefix Check: /en/ 
 
-    Error: Link http://localhost:5173/portfolio.html on /en/portfolio should contain locale /en/
+    Error: Link /de/ on /en/ leaked to /de/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/en/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/de/"[39m
+    Received string:        [31m"[7m/de/[27m"[39m
 
-      157 |                    // Ensure internal link contains locale prefix
-      158 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 159 |                       expect(link, `Link ${link} on /en/portfolio should contain locale /en/`).toContain('/en/');
-          |                                                                                                ^
-      160 |                    }
-      161 |                 }
-      162 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:159:96
+      226 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/en/');
+      227 |                             for (const fl of forbiddenLocales) {
+    > 228 |                                 expect(link, `Link ${link} on /en/ leaked to ${fl}`).not.toContain(fl);
+          |                                                                                          ^
+      229 |                             }
+      230 |                         }
+      231 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:228:90
 
-    Error Context: test-results/tests-generated_comprehens-a0d29-le-Page-Health-en-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-61331-te-en-Link-Prefix-Check-en-/error-context.md
 
-  2) tests/generated_comprehensive.spec.js:166:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/letters/mfa_iceland 
+  2) tests/generated_comprehensive.spec.js:263:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/portfolio › Link Prefix Check: /en/portfolio 
 
-    Error: Link http://localhost:5173/letters/mfa_iceland.html on /en/letters/mfa_iceland should contain locale /en/
+    Error: Link /de/portfolio.html on /en/portfolio leaked to /de/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/en/"[39m
-    Received string:    [31m"http://localhost:5173/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/de/"[39m
+    Received string:        [31m"[7m/de/[27mportfolio.html"[39m
 
-      184 |                    // Ensure internal link contains locale prefix
-      185 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 186 |                       expect(link, `Link ${link} on /en/letters/mfa_iceland should contain locale /en/`).toContain('/en/');
-          |                                                                                                          ^
-      187 |                    }
-      188 |                 }
-      189 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:186:106
+      278 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/en/');
+      279 |                             for (const fl of forbiddenLocales) {
+    > 280 |                                 expect(link, `Link ${link} on /en/portfolio leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                   ^
+      281 |                             }
+      282 |                         }
+      283 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:280:99
 
-    Error Context: test-results/tests-generated_comprehens-10710-alth-en-letters-mfa-iceland/error-context.md
+    Error Context: test-results/tests-generated_comprehens-d4581-k-Prefix-Check-en-portfolio/error-context.md
 
-  3) tests/generated_comprehensive.spec.js:224:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/portfolio 
+  3) tests/generated_comprehensive.spec.js:315:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/letters/mfa_iceland › Link Prefix Check: /en/letters/mfa_iceland 
 
-    Error: Link http://localhost:5173/portfolio.html on /de/portfolio should contain locale /de/
+    Error: Link /de/letters/mfa_iceland.html on /en/letters/mfa_iceland leaked to /de/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/de/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/de/"[39m
+    Received string:        [31m"[7m/de/[27mletters/mfa_iceland.html"[39m
 
-      242 |                    // Ensure internal link contains locale prefix
-      243 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 244 |                       expect(link, `Link ${link} on /de/portfolio should contain locale /de/`).toContain('/de/');
-          |                                                                                                ^
-      245 |                    }
-      246 |                 }
-      247 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:244:96
-
-    Error Context: test-results/tests-generated_comprehens-0e5af-le-Page-Health-de-portfolio/error-context.md
-
-  4) tests/generated_comprehensive.spec.js:251:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/letters/germany_appeal 
-
-    Error: Link http://localhost:5173/letters/germany_appeal.html on /de/letters/germany_appeal should contain locale /de/
-
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
-
-    Expected substring: [32m"/de/"[39m
-    Received string:    [31m"http://localhost:5173/letters/germany_appeal.html"[39m
-
-      269 |                    // Ensure internal link contains locale prefix
-      270 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 271 |                       expect(link, `Link ${link} on /de/letters/germany_appeal should contain locale /de/`).toContain('/de/');
+      330 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/en/');
+      331 |                             for (const fl of forbiddenLocales) {
+    > 332 |                                 expect(link, `Link ${link} on /en/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
           |                                                                                                             ^
-      272 |                    }
-      273 |                 }
-      274 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:271:109
+      333 |                             }
+      334 |                         }
+      335 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:332:109
 
-    Error Context: test-results/tests-generated_comprehens-c1941-h-de-letters-germany-appeal/error-context.md
+    Error Context: test-results/tests-generated_comprehens-e4f77-heck-en-letters-mfa-iceland/error-context.md
 
-  5) tests/generated_comprehensive.spec.js:309:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/portfolio 
+  4) tests/generated_comprehensive.spec.js:379:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/ › Link Prefix Check: /de/ 
 
-    Error: Link http://localhost:5173/portfolio.html on /is/portfolio should contain locale /is/
+    Error: Link /en/ on /de/ leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/is/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
 
-      327 |                    // Ensure internal link contains locale prefix
-      328 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 329 |                       expect(link, `Link ${link} on /is/portfolio should contain locale /is/`).toContain('/is/');
-          |                                                                                                ^
-      330 |                    }
-      331 |                 }
-      332 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:329:96
+      394 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/de/');
+      395 |                             for (const fl of forbiddenLocales) {
+    > 396 |                                 expect(link, `Link ${link} on /de/ leaked to ${fl}`).not.toContain(fl);
+          |                                                                                          ^
+      397 |                             }
+      398 |                         }
+      399 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:396:90
 
-    Error Context: test-results/tests-generated_comprehens-98e85-le-Page-Health-is-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-c3009-te-de-Link-Prefix-Check-de-/error-context.md
 
-  6) tests/generated_comprehensive.spec.js:336:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/letters/mfa_iceland 
+  5) tests/generated_comprehensive.spec.js:431:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/portfolio › Link Prefix Check: /de/portfolio 
 
-    Error: Link http://localhost:5173/letters/mfa_iceland.html on /is/letters/mfa_iceland should contain locale /is/
+    Error: Link /en/portfolio.html on /de/portfolio leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/is/"[39m
-    Received string:    [31m"http://localhost:5173/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
 
-      354 |                    // Ensure internal link contains locale prefix
-      355 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 356 |                       expect(link, `Link ${link} on /is/letters/mfa_iceland should contain locale /is/`).toContain('/is/');
-          |                                                                                                          ^
-      357 |                    }
-      358 |                 }
-      359 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:356:106
+      446 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/de/');
+      447 |                             for (const fl of forbiddenLocales) {
+    > 448 |                                 expect(link, `Link ${link} on /de/portfolio leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                   ^
+      449 |                             }
+      450 |                         }
+      451 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:448:99
 
-    Error Context: test-results/tests-generated_comprehens-2ea9b-alth-is-letters-mfa-iceland/error-context.md
+    Error Context: test-results/tests-generated_comprehens-45b2d-k-Prefix-Check-de-portfolio/error-context.md
 
-  7) tests/generated_comprehensive.spec.js:367:13 › Multilingual Integrity & Link Soundness › NO Locale › Home Navigation & Core Links 
+  6) tests/generated_comprehensive.spec.js:483:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/letters/mfa_iceland › Link Prefix Check: /de/letters/mfa_iceland 
 
-    Error: Locale no button /uk/letters/mfa_iceland.html must be localized
+    Error: Link /en/letters/mfa_iceland.html on /de/letters/mfa_iceland leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/no/"[39m
-    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
 
-      382 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
-      383 |                     } else {
-    > 384 |                         expect(href, `Locale no button ${href} must be localized`).toContain('/no/');
-          |                                                                                    ^
-      385 |                     }
-      386 |                     const resp = await page.request.get('http://localhost:5173' + href);
-      387 |                     expect(resp.status(), `Localized hero button link ${href} is broken on no`).toBe(200);
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:384:84
+      498 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/de/');
+      499 |                             for (const fl of forbiddenLocales) {
+    > 500 |                                 expect(link, `Link ${link} on /de/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                             ^
+      501 |                             }
+      502 |                         }
+      503 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:500:109
 
-    Error Context: test-results/tests-generated_comprehens-1365d--Home-Navigation-Core-Links/error-context.md
+    Error Context: test-results/tests-generated_comprehens-c7c6d-heck-de-letters-mfa-iceland/error-context.md
 
-  8) tests/generated_comprehensive.spec.js:393:13 › Multilingual Integrity & Link Soundness › NO Locale › Page Health: /no/portfolio 
+  7) tests/generated_comprehensive.spec.js:547:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/ › Link Prefix Check: /is/ 
 
-    Error: Link http://localhost:5173/portfolio.html on /no/portfolio should contain locale /no/
+    Error: Link /en/ on /is/ leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/no/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
 
-      411 |                    // Ensure internal link contains locale prefix
-      412 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 413 |                       expect(link, `Link ${link} on /no/portfolio should contain locale /no/`).toContain('/no/');
-          |                                                                                                ^
-      414 |                    }
-      415 |                 }
-      416 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:413:96
+      562 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/is/');
+      563 |                             for (const fl of forbiddenLocales) {
+    > 564 |                                 expect(link, `Link ${link} on /is/ leaked to ${fl}`).not.toContain(fl);
+          |                                                                                          ^
+      565 |                             }
+      566 |                         }
+      567 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:564:90
 
-    Error Context: test-results/tests-generated_comprehens-29228-le-Page-Health-no-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-70275-te-is-Link-Prefix-Check-is-/error-context.md
 
-  9) tests/generated_comprehensive.spec.js:424:13 › Multilingual Integrity & Link Soundness › SV Locale › Home Navigation & Core Links 
+  8) tests/generated_comprehensive.spec.js:599:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/portfolio › Link Prefix Check: /is/portfolio 
 
-    Error: Locale sv button /uk/letters/mfa_iceland.html must be localized
+    Error: Link /en/portfolio.html on /is/portfolio leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/sv/"[39m
-    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
 
-      439 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
-      440 |                     } else {
-    > 441 |                         expect(href, `Locale sv button ${href} must be localized`).toContain('/sv/');
-          |                                                                                    ^
-      442 |                     }
-      443 |                     const resp = await page.request.get('http://localhost:5173' + href);
-      444 |                     expect(resp.status(), `Localized hero button link ${href} is broken on sv`).toBe(200);
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:441:84
+      614 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/is/');
+      615 |                             for (const fl of forbiddenLocales) {
+    > 616 |                                 expect(link, `Link ${link} on /is/portfolio leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                   ^
+      617 |                             }
+      618 |                         }
+      619 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:616:99
 
-    Error Context: test-results/tests-generated_comprehens-d7bf6--Home-Navigation-Core-Links/error-context.md
+    Error Context: test-results/tests-generated_comprehens-33857-k-Prefix-Check-is-portfolio/error-context.md
 
-  10) tests/generated_comprehensive.spec.js:450:13 › Multilingual Integrity & Link Soundness › SV Locale › Page Health: /sv/portfolio 
+  9) tests/generated_comprehensive.spec.js:651:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/letters/mfa_iceland › Link Prefix Check: /is/letters/mfa_iceland 
 
-    Error: Link http://localhost:5173/portfolio.html on /sv/portfolio should contain locale /sv/
+    Error: Link /en/letters/mfa_iceland.html on /is/letters/mfa_iceland leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/sv/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
 
-      468 |                    // Ensure internal link contains locale prefix
-      469 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 470 |                       expect(link, `Link ${link} on /sv/portfolio should contain locale /sv/`).toContain('/sv/');
-          |                                                                                                ^
-      471 |                    }
-      472 |                 }
-      473 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:470:96
+      666 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/is/');
+      667 |                             for (const fl of forbiddenLocales) {
+    > 668 |                                 expect(link, `Link ${link} on /is/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                             ^
+      669 |                             }
+      670 |                         }
+      671 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:668:109
 
-    Error Context: test-results/tests-generated_comprehens-c83f1-le-Page-Health-sv-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-ba54f-heck-is-letters-mfa-iceland/error-context.md
 
-  11) tests/generated_comprehensive.spec.js:481:13 › Multilingual Integrity & Link Soundness › FI Locale › Home Navigation & Core Links 
+  10) tests/generated_comprehensive.spec.js:715:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/ › Link Prefix Check: /no/ 
 
-    Error: Locale fi button /uk/letters/mfa_iceland.html must be localized
+    Error: Link /en/ on /no/ leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/fi/"[39m
-    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
 
-      496 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
-      497 |                     } else {
-    > 498 |                         expect(href, `Locale fi button ${href} must be localized`).toContain('/fi/');
-          |                                                                                    ^
-      499 |                     }
-      500 |                     const resp = await page.request.get('http://localhost:5173' + href);
-      501 |                     expect(resp.status(), `Localized hero button link ${href} is broken on fi`).toBe(200);
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:498:84
+      730 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/no/');
+      731 |                             for (const fl of forbiddenLocales) {
+    > 732 |                                 expect(link, `Link ${link} on /no/ leaked to ${fl}`).not.toContain(fl);
+          |                                                                                          ^
+      733 |                             }
+      734 |                         }
+      735 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:732:90
 
-    Error Context: test-results/tests-generated_comprehens-1e9b6--Home-Navigation-Core-Links/error-context.md
+    Error Context: test-results/tests-generated_comprehens-07ad6-te-no-Link-Prefix-Check-no-/error-context.md
 
-  12) tests/generated_comprehensive.spec.js:507:13 › Multilingual Integrity & Link Soundness › FI Locale › Page Health: /fi/portfolio 
+  11) tests/generated_comprehensive.spec.js:767:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/portfolio › Link Prefix Check: /no/portfolio 
 
-    Error: Link http://localhost:5173/portfolio.html on /fi/portfolio should contain locale /fi/
+    Error: Link /en/portfolio.html on /no/portfolio leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/fi/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
 
-      525 |                    // Ensure internal link contains locale prefix
-      526 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 527 |                       expect(link, `Link ${link} on /fi/portfolio should contain locale /fi/`).toContain('/fi/');
-          |                                                                                                ^
-      528 |                    }
-      529 |                 }
-      530 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:527:96
+      782 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/no/');
+      783 |                             for (const fl of forbiddenLocales) {
+    > 784 |                                 expect(link, `Link ${link} on /no/portfolio leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                   ^
+      785 |                             }
+      786 |                         }
+      787 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:784:99
 
-    Error Context: test-results/tests-generated_comprehens-d5bf6-le-Page-Health-fi-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-e056f-k-Prefix-Check-no-portfolio/error-context.md
 
-  13) tests/generated_comprehensive.spec.js:538:13 › Multilingual Integrity & Link Soundness › DA Locale › Home Navigation & Core Links 
+  12) tests/generated_comprehensive.spec.js:819:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/letters/mfa_iceland › Link Prefix Check: /no/letters/mfa_iceland 
 
-    Error: Locale da button /uk/letters/mfa_iceland.html must be localized
+    Error: Link /en/letters/mfa_iceland.html on /no/letters/mfa_iceland leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/da/"[39m
-    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
 
-      553 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
-      554 |                     } else {
-    > 555 |                         expect(href, `Locale da button ${href} must be localized`).toContain('/da/');
-          |                                                                                    ^
-      556 |                     }
-      557 |                     const resp = await page.request.get('http://localhost:5173' + href);
-      558 |                     expect(resp.status(), `Localized hero button link ${href} is broken on da`).toBe(200);
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:555:84
+      834 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/no/');
+      835 |                             for (const fl of forbiddenLocales) {
+    > 836 |                                 expect(link, `Link ${link} on /no/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                             ^
+      837 |                             }
+      838 |                         }
+      839 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:836:109
 
-    Error Context: test-results/tests-generated_comprehens-b43c3--Home-Navigation-Core-Links/error-context.md
+    Error Context: test-results/tests-generated_comprehens-64dcb-heck-no-letters-mfa-iceland/error-context.md
 
-  14) tests/generated_comprehensive.spec.js:564:13 › Multilingual Integrity & Link Soundness › DA Locale › Page Health: /da/portfolio 
+  13) tests/generated_comprehensive.spec.js:883:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/ › Link Prefix Check: /sv/ 
 
-    Error: Link http://localhost:5173/portfolio.html on /da/portfolio should contain locale /da/
+    Error: Link /en/ on /sv/ leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/da/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
 
-      582 |                    // Ensure internal link contains locale prefix
-      583 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 584 |                       expect(link, `Link ${link} on /da/portfolio should contain locale /da/`).toContain('/da/');
-          |                                                                                                ^
-      585 |                    }
-      586 |                 }
-      587 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:584:96
+      898 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/sv/');
+      899 |                             for (const fl of forbiddenLocales) {
+    > 900 |                                 expect(link, `Link ${link} on /sv/ leaked to ${fl}`).not.toContain(fl);
+          |                                                                                          ^
+      901 |                             }
+      902 |                         }
+      903 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:900:90
 
-    Error Context: test-results/tests-generated_comprehens-2545a-le-Page-Health-da-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-059bc-te-sv-Link-Prefix-Check-sv-/error-context.md
 
-  15) tests/generated_comprehensive.spec.js:595:13 › Multilingual Integrity & Link Soundness › NL Locale › Home Navigation & Core Links 
+  14) tests/generated_comprehensive.spec.js:935:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/portfolio › Link Prefix Check: /sv/portfolio 
 
-    Error: Locale nl button /uk/letters/mfa_iceland.html must be localized
+    Error: Link /en/portfolio.html on /sv/portfolio leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/nl/"[39m
-    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
 
-      610 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
-      611 |                     } else {
-    > 612 |                         expect(href, `Locale nl button ${href} must be localized`).toContain('/nl/');
-          |                                                                                    ^
-      613 |                     }
-      614 |                     const resp = await page.request.get('http://localhost:5173' + href);
-      615 |                     expect(resp.status(), `Localized hero button link ${href} is broken on nl`).toBe(200);
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:612:84
+      950 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/sv/');
+      951 |                             for (const fl of forbiddenLocales) {
+    > 952 |                                 expect(link, `Link ${link} on /sv/portfolio leaked to ${fl}`).not.toContain(fl);
+          |                                                                                                   ^
+      953 |                             }
+      954 |                         }
+      955 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:952:99
 
-    Error Context: test-results/tests-generated_comprehens-31651--Home-Navigation-Core-Links/error-context.md
+    Error Context: test-results/tests-generated_comprehens-6dbda-k-Prefix-Check-sv-portfolio/error-context.md
 
-  16) tests/generated_comprehensive.spec.js:621:13 › Multilingual Integrity & Link Soundness › NL Locale › Page Health: /nl/portfolio 
+  15) tests/generated_comprehensive.spec.js:987:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/letters/mfa_iceland › Link Prefix Check: /sv/letters/mfa_iceland 
 
-    Error: Link http://localhost:5173/portfolio.html on /nl/portfolio should contain locale /nl/
+    Error: Link /en/letters/mfa_iceland.html on /sv/letters/mfa_iceland leaked to /en/
 
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
 
-    Expected substring: [32m"/nl/"[39m
-    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
 
-      639 |                    // Ensure internal link contains locale prefix
-      640 |                    if (link.includes('portfolio') || link.includes('letters')) {
-    > 641 |                       expect(link, `Link ${link} on /nl/portfolio should contain locale /nl/`).toContain('/nl/');
-          |                                                                                                ^
-      642 |                    }
-      643 |                 }
-      644 |             }
-        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:641:96
+      1002 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/sv/');
+      1003 |                             for (const fl of forbiddenLocales) {
+    > 1004 |                                 expect(link, `Link ${link} on /sv/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                             ^
+      1005 |                             }
+      1006 |                         }
+      1007 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1004:109
 
-    Error Context: test-results/tests-generated_comprehens-51d56-le-Page-Health-nl-portfolio/error-context.md
+    Error Context: test-results/tests-generated_comprehens-8f19e-heck-sv-letters-mfa-iceland/error-context.md
 
-  16 failed
-    tests/generated_comprehensive.spec.js:139:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/portfolio 
-    tests/generated_comprehensive.spec.js:166:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/letters/mfa_iceland 
-    tests/generated_comprehensive.spec.js:224:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/portfolio 
-    tests/generated_comprehensive.spec.js:251:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/letters/germany_appeal 
-    tests/generated_comprehensive.spec.js:309:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/portfolio 
-    tests/generated_comprehensive.spec.js:336:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/letters/mfa_iceland 
-    tests/generated_comprehensive.spec.js:367:13 › Multilingual Integrity & Link Soundness › NO Locale › Home Navigation & Core Links 
-    tests/generated_comprehensive.spec.js:393:13 › Multilingual Integrity & Link Soundness › NO Locale › Page Health: /no/portfolio 
-    tests/generated_comprehensive.spec.js:424:13 › Multilingual Integrity & Link Soundness › SV Locale › Home Navigation & Core Links 
-    tests/generated_comprehensive.spec.js:450:13 › Multilingual Integrity & Link Soundness › SV Locale › Page Health: /sv/portfolio 
-    tests/generated_comprehensive.spec.js:481:13 › Multilingual Integrity & Link Soundness › FI Locale › Home Navigation & Core Links 
-    tests/generated_comprehensive.spec.js:507:13 › Multilingual Integrity & Link Soundness › FI Locale › Page Health: /fi/portfolio 
-    tests/generated_comprehensive.spec.js:538:13 › Multilingual Integrity & Link Soundness › DA Locale › Home Navigation & Core Links 
-    tests/generated_comprehensive.spec.js:564:13 › Multilingual Integrity & Link Soundness › DA Locale › Page Health: /da/portfolio 
-    tests/generated_comprehensive.spec.js:595:13 › Multilingual Integrity & Link Soundness › NL Locale › Home Navigation & Core Links 
-    tests/generated_comprehensive.spec.js:621:13 › Multilingual Integrity & Link Soundness › NL Locale › Page Health: /nl/portfolio 
-  8 passed (22.5s)
+  16) tests/generated_comprehensive.spec.js:1051:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/ › Link Prefix Check: /fi/ 
+
+    Error: Link /en/ on /fi/ leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
+
+      1066 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/fi/');
+      1067 |                             for (const fl of forbiddenLocales) {
+    > 1068 |                                 expect(link, `Link ${link} on /fi/ leaked to ${fl}`).not.toContain(fl);
+           |                                                                                          ^
+      1069 |                             }
+      1070 |                         }
+      1071 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1068:90
+
+    Error Context: test-results/tests-generated_comprehens-ea652-te-fi-Link-Prefix-Check-fi-/error-context.md
+
+  17) tests/generated_comprehensive.spec.js:1103:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/portfolio › Link Prefix Check: /fi/portfolio 
+
+    Error: Link /en/portfolio.html on /fi/portfolio leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
+
+      1118 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/fi/');
+      1119 |                             for (const fl of forbiddenLocales) {
+    > 1120 |                                 expect(link, `Link ${link} on /fi/portfolio leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                   ^
+      1121 |                             }
+      1122 |                         }
+      1123 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1120:99
+
+    Error Context: test-results/tests-generated_comprehens-429fa-k-Prefix-Check-fi-portfolio/error-context.md
+
+  18) tests/generated_comprehensive.spec.js:1155:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/letters/mfa_iceland › Link Prefix Check: /fi/letters/mfa_iceland 
+
+    Error: Link /en/letters/mfa_iceland.html on /fi/letters/mfa_iceland leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
+
+      1170 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/fi/');
+      1171 |                             for (const fl of forbiddenLocales) {
+    > 1172 |                                 expect(link, `Link ${link} on /fi/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                             ^
+      1173 |                             }
+      1174 |                         }
+      1175 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1172:109
+
+    Error Context: test-results/tests-generated_comprehens-7ce4a-heck-fi-letters-mfa-iceland/error-context.md
+
+  19) tests/generated_comprehensive.spec.js:1219:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/ › Link Prefix Check: /da/ 
+
+    Error: Link /en/ on /da/ leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
+
+      1234 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/da/');
+      1235 |                             for (const fl of forbiddenLocales) {
+    > 1236 |                                 expect(link, `Link ${link} on /da/ leaked to ${fl}`).not.toContain(fl);
+           |                                                                                          ^
+      1237 |                             }
+      1238 |                         }
+      1239 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1236:90
+
+    Error Context: test-results/tests-generated_comprehens-030a5-te-da-Link-Prefix-Check-da-/error-context.md
+
+  20) tests/generated_comprehensive.spec.js:1271:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/portfolio › Link Prefix Check: /da/portfolio 
+
+    Error: Link /en/portfolio.html on /da/portfolio leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
+
+      1286 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/da/');
+      1287 |                             for (const fl of forbiddenLocales) {
+    > 1288 |                                 expect(link, `Link ${link} on /da/portfolio leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                   ^
+      1289 |                             }
+      1290 |                         }
+      1291 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1288:99
+
+    Error Context: test-results/tests-generated_comprehens-af6eb-k-Prefix-Check-da-portfolio/error-context.md
+
+  21) tests/generated_comprehensive.spec.js:1323:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/letters/mfa_iceland › Link Prefix Check: /da/letters/mfa_iceland 
+
+    Error: Link /en/letters/mfa_iceland.html on /da/letters/mfa_iceland leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
+
+      1338 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/da/');
+      1339 |                             for (const fl of forbiddenLocales) {
+    > 1340 |                                 expect(link, `Link ${link} on /da/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                             ^
+      1341 |                             }
+      1342 |                         }
+      1343 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1340:109
+
+    Error Context: test-results/tests-generated_comprehens-f2d20-heck-da-letters-mfa-iceland/error-context.md
+
+  22) tests/generated_comprehensive.spec.js:1387:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/ › Link Prefix Check: /nl/ 
+
+    Error: Link /en/ on /nl/ leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27m"[39m
+
+      1402 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/nl/');
+      1403 |                             for (const fl of forbiddenLocales) {
+    > 1404 |                                 expect(link, `Link ${link} on /nl/ leaked to ${fl}`).not.toContain(fl);
+           |                                                                                          ^
+      1405 |                             }
+      1406 |                         }
+      1407 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1404:90
+
+    Error Context: test-results/tests-generated_comprehens-ed357-te-nl-Link-Prefix-Check-nl-/error-context.md
+
+  23) tests/generated_comprehensive.spec.js:1439:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/portfolio › Link Prefix Check: /nl/portfolio 
+
+    Error: Link /en/portfolio.html on /nl/portfolio leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mportfolio.html"[39m
+
+      1454 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/nl/');
+      1455 |                             for (const fl of forbiddenLocales) {
+    > 1456 |                                 expect(link, `Link ${link} on /nl/portfolio leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                   ^
+      1457 |                             }
+      1458 |                         }
+      1459 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1456:99
+
+    Error Context: test-results/tests-generated_comprehens-59662-k-Prefix-Check-nl-portfolio/error-context.md
+
+  24) tests/generated_comprehensive.spec.js:1491:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/letters/mfa_iceland › Link Prefix Check: /nl/letters/mfa_iceland 
+
+    Error: Link /en/letters/mfa_iceland.html on /nl/letters/mfa_iceland leaked to /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: not [32m"/en/"[39m
+    Received string:        [31m"[7m/en/[27mletters/mfa_iceland.html"[39m
+
+      1506 |                             const forbiddenLocales = ['/en/', '/de/', '/is/', '/no/', '/sv/', '/fi/', '/da/', '/nl/'].filter(l => l !== '/nl/');
+      1507 |                             for (const fl of forbiddenLocales) {
+    > 1508 |                                 expect(link, `Link ${link} on /nl/letters/mfa_iceland leaked to ${fl}`).not.toContain(fl);
+           |                                                                                                             ^
+      1509 |                             }
+      1510 |                         }
+      1511 |                     }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:1508:109
+
+    Error Context: test-results/tests-generated_comprehens-928f3-heck-nl-letters-mfa-iceland/error-context.md
+
+  24 failed
+    tests/generated_comprehensive.spec.js:211:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/ › Link Prefix Check: /en/ 
+    tests/generated_comprehensive.spec.js:263:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/portfolio › Link Prefix Check: /en/portfolio 
+    tests/generated_comprehensive.spec.js:315:17 › Extreme Multilingual Audit (150+ Checks) › EN Deep Verification › Route: /en/letters/mfa_iceland › Link Prefix Check: /en/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:379:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/ › Link Prefix Check: /de/ 
+    tests/generated_comprehensive.spec.js:431:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/portfolio › Link Prefix Check: /de/portfolio 
+    tests/generated_comprehensive.spec.js:483:17 › Extreme Multilingual Audit (150+ Checks) › DE Deep Verification › Route: /de/letters/mfa_iceland › Link Prefix Check: /de/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:547:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/ › Link Prefix Check: /is/ 
+    tests/generated_comprehensive.spec.js:599:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/portfolio › Link Prefix Check: /is/portfolio 
+    tests/generated_comprehensive.spec.js:651:17 › Extreme Multilingual Audit (150+ Checks) › IS Deep Verification › Route: /is/letters/mfa_iceland › Link Prefix Check: /is/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:715:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/ › Link Prefix Check: /no/ 
+    tests/generated_comprehensive.spec.js:767:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/portfolio › Link Prefix Check: /no/portfolio 
+    tests/generated_comprehensive.spec.js:819:17 › Extreme Multilingual Audit (150+ Checks) › NO Deep Verification › Route: /no/letters/mfa_iceland › Link Prefix Check: /no/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:883:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/ › Link Prefix Check: /sv/ 
+    tests/generated_comprehensive.spec.js:935:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/portfolio › Link Prefix Check: /sv/portfolio 
+    tests/generated_comprehensive.spec.js:987:17 › Extreme Multilingual Audit (150+ Checks) › SV Deep Verification › Route: /sv/letters/mfa_iceland › Link Prefix Check: /sv/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:1051:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/ › Link Prefix Check: /fi/ 
+    tests/generated_comprehensive.spec.js:1103:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/portfolio › Link Prefix Check: /fi/portfolio 
+    tests/generated_comprehensive.spec.js:1155:17 › Extreme Multilingual Audit (150+ Checks) › FI Deep Verification › Route: /fi/letters/mfa_iceland › Link Prefix Check: /fi/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:1219:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/ › Link Prefix Check: /da/ 
+    tests/generated_comprehensive.spec.js:1271:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/portfolio › Link Prefix Check: /da/portfolio 
+    tests/generated_comprehensive.spec.js:1323:17 › Extreme Multilingual Audit (150+ Checks) › DA Deep Verification › Route: /da/letters/mfa_iceland › Link Prefix Check: /da/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:1387:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/ › Link Prefix Check: /nl/ 
+    tests/generated_comprehensive.spec.js:1439:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/portfolio › Link Prefix Check: /nl/portfolio 
+    tests/generated_comprehensive.spec.js:1491:17 › Extreme Multilingual Audit (150+ Checks) › NL Deep Verification › Route: /nl/letters/mfa_iceland › Link Prefix Check: /nl/letters/mfa_iceland 
+  66 passed (44.4s)
