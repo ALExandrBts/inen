@@ -66,16 +66,11 @@ features:
 
 ## Інженерні Рішення
 
-<div class="home-container">
-<div class="grid">
-  <div class="card" onclick="window.open('https://ucts.solutions', '_blank')"><h3>UCTS</h3><p>Перетворення токсичного червоного шламу на енергоакумулятори.</p></div>
-  <div class="card" onclick="window.open('https://h2gen.legalgreenplanet.tech', '_blank')"><h3>Solar-H₂ Boost</h3><p>Гібридний морський двигун (Водень + Сонце).</p></div>
-  <div class="card" onclick="window.open('https://moss.legalgreenplanet.tech', '_blank')"><h3>Moss Tile</h3><p>Жива покрівля з моху.</p></div>
-</div>
+<script setup>
+import ProjectCard from './.vitepress/theme/components/ProjectCard.vue'
+import ContactCard from './.vitepress/theme/components/ContactCard.vue'
+</script>
 
-<div class="contact-grid" style="margin-top: 3rem;">
-  <a href="mailto:legalgreenplanet@gmail.com" class="contact-card"><span>✉️ Email</span><b>legalgreenplanet@gmail.com</b></a>
-  <a href="tel:+4917688173516" class="contact-card"><span>📱 Phone</span><b>+49 176 88173516</b></a>
-</div>
+<ProjectCard />
 
-</div>
+<ContactCard />

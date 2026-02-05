@@ -1,0 +1,155 @@
+{
+    "uk": [
+        {
+            "title": "UCTS",
+            "description": "Перетворення токсичного червоного шламу на енергоакумулятори.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Гібридний морський двигун (Водень + Сонце).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Жива покрівля з моху.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "en": [
+        {
+            "title": "UCTS",
+            "description": "Transforming toxic red sludge into energy storage.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybrid marine engine (Hydrogen + Solar).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Living moss roofing.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "de": [
+        {
+            "title": "UCTS",
+            "description": "Umwandlung von giftigem Rotschlamm in Energiespeicher.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybrid-Schiffsmotor (Wasserstoff + Solar).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Lebende Moosbedachung.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "is": [
+        {
+            "title": "UCTS",
+            "description": "Umbreyting eitraðs rauðs leðju í orkugeymslu.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Blendingur sjávarvél (Vetni + Sól).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Lifandi mosaplatta.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "no": [
+        {
+            "title": "UCTS",
+            "description": "Transformering av giftig rød slam til energilagring.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybrid marinemotor (Hydrogen + Sol).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Levende mosetaktegl.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "sv": [
+        {
+            "title": "UCTS",
+            "description": "Omvandling av giftigt rött slam till energilagring.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybrid marinmotor (Väte + Sol).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Levande mosstak.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "fi": [
+        {
+            "title": "UCTS",
+            "description": "Myrkyllisen punaisen lietteen muuttaminen energiavarastoksi.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybridimerimoottori (Vety + Aurinko).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Elävä sammaltiili.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "da": [
+        {
+            "title": "UCTS",
+            "description": "Omdannelse af giftigt rødt slam til energilagring.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybrid marinemotor (Brint + Sol).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Levende mostag.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ],
+    "nl": [
+        {
+            "title": "UCTS",
+            "description": "Transformatie van giftig rode modder naar energieopslag.",
+            "link": "https://ucts.solutions"
+        },
+        {
+            "title": "Solar-H₂ Boost",
+            "description": "Hybride scheepsmotor (Waterstof + Zon).",
+            "link": "https://h2gen.legalgreenplanet.tech"
+        },
+        {
+            "title": "Moss Tile",
+            "description": "Levende mosdak.",
+            "link": "https://moss.legalgreenplanet.tech"
+        }
+    ]
+}

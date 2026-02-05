@@ -85,7 +85,7 @@ const translations = {
 - **Прошу надати мені політичний притулок** та міжнародний захист від системного переслідування.
 - **Прошу визнати мій статус Живої Людини** та забезпечити можливість реалізації моїх інженерних та творчих проєктів на благо людства.
 
-Мої розробки (UCTS, Solar-H2) спрямовані на вирішення глобальних енергетичних та екологічних проблем. Я готовий направити свій інтелектуальний потенціал на розвиток Ісландії та Світу.
+Мої розробки (UCTS, Solar-H2, Moss Tile) спрямовані на вирішення глобальних енергетичних та екологічних проблем. Я готовий направити свій інтелектуальний потенціал на розвиток Ісландії та Світу.
 
 - [Переглянути портфоліо інженерних рішень](../portfolio)
 - [Читати повну деталізовану історію переслідувань](../history)`,
@@ -160,7 +160,7 @@ I officially appeal to the Government and People of the Republic of Iceland, as 
 - **I request political asylum** and international protection from systemic persecution.
 - **I request recognition of my status as a Living Man** and the opportunity to realize my engineering and creative projects for the benefit of humanity.
 
-My developments (UCTS, Solar-H2) are aimed at solving global energy and environmental problems. I am ready to direct my intellectual potential to the development of Iceland and the World.
+My developments (UCTS, Solar-H2, Moss Tile) are aimed at solving global energy and environmental problems. I am ready to direct my intellectual potential to the development of Iceland and the World.
 
 - [View Portfolio of Engineering Solutions](../portfolio)
 - [Read full detailed history of persecution](../history)`,

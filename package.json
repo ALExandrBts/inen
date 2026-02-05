@@ -6,7 +6,9 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "test:components": "playwright test tests/timeline.spec.js",
+    "test:all": "npm run test:components && npm run docs:build"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,290 @@
+{
+    "uk": [
+        {
+            "year": "2024",
+            "title": "Еміграція до Ісландії",
+            "description": "Прибуття в Рейк'явік і початок нового життя в безпечній країні."
+        },
+        {
+            "year": "2022",
+            "title": "Підтримка України",
+            "description": "Волонтерство та відправка гуманітарної допомоги на початку повномасштабного вторгнення."
+        },
+        {
+            "year": "2020",
+            "title": "Переїзд до Німеччини",
+            "description": "Пошук безпеки та нових можливостей у Європі."
+        },
+        {
+            "year": "2018",
+            "title": "Робота в IT",
+            "description": "Розробка програмного забезпечення для промислових та фінансових систем."
+        },
+        {
+            "year": "2014",
+            "title": "Повернення до України",
+            "description": "Повернення з Росії після анексії Криму."
+        },
+        {
+            "year": "2012",
+            "title": "Переїзд до Росії",
+            "description": "Початок кар'єри в IT-індустрії в Москві."
+        }
+    ],
+    "en": [
+        {
+            "year": "2024",
+            "title": "Emigration to Iceland",
+            "description": "Arrival in Reykjavík and the start of a new life in a safe country."
+        },
+        {
+            "year": "2022",
+            "title": "Support for Ukraine",
+            "description": "Volunteering and sending humanitarian aid at the beginning of the full-scale invasion."
+        },
+        {
+            "year": "2020",
+            "title": "Move to Germany",
+            "description": "Seeking safety and new opportunities in Europe."
+        },
+        {
+            "year": "2018",
+            "title": "Work in IT",
+            "description": "Software development for industrial and financial systems."
+        },
+        {
+            "year": "2014",
+            "title": "Return to Ukraine",
+            "description": "Returned from Russia after the annexation of Crimea."
+        },
+        {
+            "year": "2012",
+            "title": "Move to Russia",
+            "description": "Started career in the IT industry in Moscow."
+        }
+    ],
+    "de": [
+        {
+            "year": "2024",
+            "title": "Auswanderung nach Island",
+            "description": "Ankunft in Reykjavík und Beginn eines neuen Lebens in einem sicheren Land."
+        },
+        {
+            "year": "2022",
+            "title": "Unterstützung der Ukraine",
+            "description": "Freiwilligenarbeit und Versand humanitärer Hilfe zu Beginn der umfassenden Invasion."
+        },
+        {
+            "year": "2020",
+            "title": "Umzug nach Deutschland",
+            "description": "Suche nach Sicherheit und neuen Möglichkeiten in Europa."
+        },
+        {
+            "year": "2018",
+            "title": "Arbeit in der IT",
+            "description": "Softwareentwicklung für industrielle und finanzielle Systeme."
+        },
+        {
+            "year": "2014",
+            "title": "Rückkehr in die Ukraine",
+            "description": "Rückkehr aus Russland nach der Annexion der Krim."
+        },
+        {
+            "year": "2012",
+            "title": "Umzug nach Russland",
+            "description": "Beginn der Karriere in der IT-Branche in Moskau."
+        }
+    ],
+    "is": [
+        {
+            "year": "2024",
+            "title": "Flutningur til Íslands",
+            "description": "Koma til Reykjavíkur og upphaf nýs lífs í öruggu landi."
+        },
+        {
+            "year": "2022",
+            "title": "Stuðningur við Úkraínu",
+            "description": "Sjálfboðaliðastarf og sending mannúðaraðstoðar í upphafi innrásarinnar."
+        },
+        {
+            "year": "2020",
+            "title": "Flutningur til Þýskalands",
+            "description": "Að leita öryggis og nýrra tækifæra í Evrópu."
+        },
+        {
+            "year": "2018",
+            "title": "Vinna í IT",
+            "description": "Hugbúnaðarþróun fyrir iðnaðar- og fjármálakerfi."
+        },
+        {
+            "year": "2014",
+            "title": "Aftur til Úkraínu",
+            "description": "Kom til baka frá Rússlandi eftir innlimun Krímskaga."
+        },
+        {
+            "year": "2012",
+            "title": "Flutningur til Rússlands",
+            "description": "Byrjaði starfsferil í IT-iðnaðinum í Moskvu."
+        }
+    ],
+    "no": [
+        {
+            "year": "2024",
+            "title": "Emigrasjon til Island",
+            "description": "Ankomst til Reykjavík og starten på et nytt liv i et trygt land."
+        },
+        {
+            "year": "2022",
+            "title": "Støtte til Ukraina",
+            "description": "Frivillig arbeid og sending av humanitær hjelp ved begynnelsen av invasjonen."
+        },
+        {
+            "year": "2020",
+            "title": "Flytting til Tyskland",
+            "description": "Søker sikkerhet og nye muligheter i Europa."
+        },
+        {
+            "year": "2018",
+            "title": "Arbeid i IT",
+            "description": "Programvareutvikling for industrielle og finansielle systemer."
+        },
+        {
+            "year": "2014",
+            "title": "Tilbake til Ukraina",
+            "description": "Kom tilbake fra Russland etter annekteringen av Krim."
+        },
+        {
+            "year": "2012",
+            "title": "Flytting til Russland",
+            "description": "Startet karriere i IT-bransjen i Moskva."
+        }
+    ],
+    "sv": [
+        {
+            "year": "2024",
+            "title": "Emigration till Island",
+            "description": "Ankomst till Reykjavík och början på ett nytt liv i ett säkert land."
+        },
+        {
+            "year": "2022",
+            "title": "Stöd till Ukraina",
+            "description": "Volontärarbete och sändning av humanitär hjälp vid invasionens början."
+        },
+        {
+            "year": "2020",
+            "title": "Flytt till Tyskland",
+            "description": "Söker säkerhet och nya möjligheter i Europa."
+        },
+        {
+            "year": "2018",
+            "title": "Arbete inom IT",
+            "description": "Mjukvaruutveckling för industriella och finansiella system."
+        },
+        {
+            "year": "2014",
+            "title": "Återvänder till Ukraina",
+            "description": "Kom tillbaka från Ryssland efter annekteringen av Krim."
+        },
+        {
+            "year": "2012",
+            "title": "Flytt till Ryssland",
+            "description": "Började karriär i IT-branschen i Moskva."
+        }
+    ],
+    "fi": [
+        {
+            "year": "2024",
+            "title": "Muutto Islantiin",
+            "description": "Saapuminen Reykjavíkiin ja uuden elämän aloitus turvallisessa maassa."
+        },
+        {
+            "year": "2022",
+            "title": "Tuki Ukrainalle",
+            "description": "Vapaaehtoistoiminta ja humanitaarisen avun lähettäminen hyökkäyksen alkaessa."
+        },
+        {
+            "year": "2020",
+            "title": "Muutto Saksaan",
+            "description": "Turvallisuuden ja uusien mahdollisuuksien etsiminen Euroopasta."
+        },
+        {
+            "year": "2018",
+            "title": "Työ IT-alalla",
+            "description": "Ohjelmistokehitys teollisuus- ja rahoitusjärjestelmille."
+        },
+        {
+            "year": "2014",
+            "title": "Paluu Ukrainaan",
+            "description": "Palasi Venäjältä Krimin liittämisen jälkeen."
+        },
+        {
+            "year": "2012",
+            "title": "Muutto Venäjälle",
+            "description": "Aloitti uran IT-alalla Moskovassa."
+        }
+    ],
+    "da": [
+        {
+            "year": "2024",
+            "title": "Emigration til Island",
+            "description": "Ankomst til Reykjavík og starten på et nyt liv i et sikkert land."
+        },
+        {
+            "year": "2022",
+            "title": "Støtte til Ukraine",
+            "description": "Frivilligt arbejde og afsendelse af humanitær hjælp ved begyndelsen af invasionen."
+        },
+        {
+            "year": "2020",
+            "title": "Flytning til Tyskland",
+            "description": "Søger sikkerhed og nye muligheder i Europa."
+        },
+        {
+            "year": "2018",
+            "title": "Arbejde i IT",
+            "description": "Softwareudvikling til industrielle og finansielle systemer."
+        },
+        {
+            "year": "2014",
+            "title": "Tilbage til Ukraine",
+            "description": "Kom tilbage fra Rusland efter annekteringen af Krim."
+        },
+        {
+            "year": "2012",
+            "title": "Flytning til Rusland",
+            "description": "Startede karriere i IT-branchen i Moskva."
+        }
+    ],
+    "nl": [
+        {
+            "year": "2024",
+            "title": "Emigratie naar IJsland",
+            "description": "Aankomst in Reykjavík en het begin van een nieuw leven in een veilig land."
+        },
+        {
+            "year": "2022",
+            "title": "Steun voor Oekraïne",
+            "description": "Vrijwilligerswerk en verzenden van humanitaire hulp bij het begin van de invasie."
+        },
+        {
+            "year": "2020",
+            "title": "Verhuizing naar Duitsland",
+            "description": "Op zoek naar veiligheid en nieuwe kansen in Europa."
+        },
+        {
+            "year": "2018",
+            "title": "Werk in IT",
+            "description": "Softwareontwikkeling voor industriële en financiële systemen."
+        },
+        {
+            "year": "2014",
+            "title": "Terugkeer naar Oekraïne",
+            "description": "Keerde terug uit Rusland na de annexatie van de Krim."
+        },
+        {
+            "year": "2012",
+            "title": "Verhuizing naar Rusland",
+            "description": "Begon carrière in de IT-industrie in Moskou."
+        }
+    ]
+}
