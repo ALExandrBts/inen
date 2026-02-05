@@ -7,19 +7,18 @@ const i18nDir = path.join(rootDir, 'i18n');
 if (!fs.existsSync(i18nDir)) fs.mkdirSync(i18nDir, { recursive: true });
 
 const localesList = [
-  { code: 'uk', label: 'Українська', prev: 'Попередня', next: 'Наступна' },
-  { code: 'en', label: 'English', prev: 'Previous page', next: 'Next page' },
-  { code: 'de', label: 'Deutsch', prev: 'Vorherige Seite', next: 'Nächste Seite' },
-  { code: 'is', label: 'Íslenska', prev: 'Fyrri síða', next: 'Næsta síða' },
-  { code: 'no', label: 'Norsk', prev: 'Forrige side', next: 'Neste side' },
-  { code: 'sv', label: 'Svenska', prev: 'Föregående sida', next: 'Nästa sida' },
-  { code: 'fi', label: 'Suomi', prev: 'Edellinen sivu', next: 'Seuraava sivu' },
-  { code: 'da', label: 'Dansk', prev: 'Forrige side', next: 'Næste side' },
-  { code: 'nl', label: 'Nederlands', prev: 'Vorige pagina', next: 'Volgende pagina' }
+  { code: 'uk', label: 'Українська', prev: 'Попередня', next: 'Наступна', menu: 'Меню', top: 'Нагору' },
+  { code: 'en', label: 'English', prev: 'Previous page', next: 'Next page', menu: 'Menu', top: 'Return to top' },
+  { code: 'de', label: 'Deutsch', prev: 'Vorherige Seite', next: 'Nächste Seite', menu: 'Menü', top: 'Nach oben' },
+  { code: 'is', label: 'Íslenska', prev: 'Fyrri síða', next: 'Næsta síða', menu: 'Valmynd', top: 'Efst á síðu' },
+  { code: 'no', label: 'Norsk', prev: 'Forrige side', next: 'Neste side', menu: 'Meny', top: 'Til toppen' },
+  { code: 'sv', label: 'Svenska', prev: 'Föregående sida', next: 'Nästa sida', menu: 'Meny', top: 'Till toppen' },
+  { code: 'fi', label: 'Suomi', prev: 'Edellinen sivu', next: 'Seuraava sivu', menu: 'Valikko', top: 'Alkuun' },
+  { code: 'da', label: 'Dansk', prev: 'Forrige side', next: 'Næste side', menu: 'Menu', top: 'Til toppen' },
+  { code: 'nl', label: 'Nederlands', prev: 'Vorige pagina', next: 'Volgende pagina', menu: 'Menu', top: 'Naar boven' }
 ];
 
 const translations = {
-  // ... (Base Translations preserved)
   uk: {
     hero_name: "Олександр Снігірьов",
     hero_text: "Жива Людина. Інженер. Суверен.",
@@ -88,10 +87,12 @@ const translations = {
 
 Мої розробки (UCTS, Solar-H2) спрямовані на вирішення глобальних енергетичних та екологічних проблем. Я готовий направити свій інтелектуальний потенціал на розвиток Ісландії та Світу.
 
-[Переглянути портфоліо інженерних рішень](../portfolio)
-[Читати повну деталізовану історію переслідувань](../history)`,
+- [Переглянути портфоліо інженерних рішень](../portfolio)
+- [Читати повну деталізовану історію переслідувань](../history)`,
     date: "Дата підписання: 5 лютого 2024 року",
-    signature: "Підпис: Олександр Снігірьов, Жива Людина"
+    sig_intro: "Підпис:",
+    sig_name: "Олександр Снігірьов",
+    sig_status: "Жива Людина"
   },
   en: {
     hero_name: "Aleksandr Snigirev",
@@ -161,10 +162,12 @@ I officially appeal to the Government and People of the Republic of Iceland, as 
 
 My developments (UCTS, Solar-H2) are aimed at solving global energy and environmental problems. I am ready to direct my intellectual potential to the development of Iceland and the World.
 
-[View Portfolio of Engineering Solutions](../portfolio)
-[Read full detailed history of persecution](../history)`,
+- [View Portfolio of Engineering Solutions](../portfolio)
+- [Read full detailed history of persecution](../history)`,
     date: "Date of signing: February 5, 2024",
-    signature: "Signature: Aleksandr Snigirev, Living Man"
+    sig_intro: "Signature:",
+    sig_name: "Aleksandr Snigirev",
+    sig_status: "Living Man"
   }
 };
 
@@ -264,6 +267,11 @@ title: ${t.letter_mfa_title}
 # ${t.letter_mfa_title}
 
 <div class="letter-print-container vp-doc">
+
+<div class="no-print" style="margin-bottom: 2rem;">
+<a href="javascript:window.print()" class="link">${t.print_doc}</a>
+</div>
+
 <p><b>${t.letter_mfa_intro}</b></p>
 <div class="letter-body-content">
 
@@ -271,14 +279,14 @@ ${t.letter_mfa_body}
 
 </div>
 
-<div class="letter-signature" style="margin-top: 3rem; border-top: 1px solid #ccc; padding-top: 1rem;">
+<div class="letter-signature">
 <p>${t.date}</p>
-<p><b>${t.signature}</b></p>
+<p>
+    <b>${t.sig_intro}</b> <span class="nowrap">${t.sig_name}</span>${lang === 'uk' ? ',' : ','} <br/>
+    <span class="nowrap"><b>${t.sig_status}</b></span>
+</p>
 </div>
 
-<div class="no-print" style="margin-top: 2rem;">
-<a href="javascript:window.print()" class="link">${t.print_doc}</a>
-</div>
 </div>`;
 
 const generateHistory = (lang, t) => `---
@@ -323,9 +331,13 @@ let localeItems = localesList.map(loc => {
     ${loc.code === 'uk' ? 'root' : loc.code}: {
       label: '${loc.label}',
       lang: '${loc.code}',
+      title: '${t.hero_name}',
       ${loc.code !== 'uk' ? `link: '/${loc.code}/',` : ''}
       themeConfig: {
-        docFooter: { prev: '${loc.prev}', next: '${loc.next}' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: '${loc.prev}', next: '${loc.next}' },
+        returnToTopLabel: '${loc.top}',
+        sidebarMenuLabel: '${loc.menu}',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: '${t.nav_letters}', link: '${b}/letters/mfa_iceland' },
             { text: '${t.nav_portfolio}', link: '${b}/portfolio' }
@@ -342,5 +354,4 @@ let localeItems = localesList.map(loc => {
 });
 
 fs.writeFileSync(path.join(rootDir, '.vitepress', 'config.mts'), `import { defineConfig } from 'vitepress'\nexport default defineConfig({ title: "Олександр Снігірьов", locales: {${localeItems.join(',')}}, themeConfig: { socialLinks: [{ icon: 'github', link: 'https://github.com/ALExandrBts/inen' }] } })`);
-fs.writeFileSync(path.join(rootDir, '.vitepress', 'public', 'CNAME'), '1810.legalgreenplanet.tech');
-console.log('Build SYSTEM UPDATED: Localized docFooter, Signature Block, Full Content.');
+console.log('Build FIXED V11: Sig Split Lines, No-Wrap Names, Print Top, Localized Titles.');

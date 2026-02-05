@@ -25,46 +25,24 @@ body {
     border: 4px solid var(--vp-c-brand);
 }
 
-/* Starfield visibility in Light Mode */
 .starfield {
     opacity: 1 !important;
 }
 
-/* Timeline Stylings */
-.timeline {
-    border-left: 3px solid var(--vp-c-brand);
-    margin-left: 1rem;
-    padding-left: 2rem;
-}
-
-.event {
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-.event::before {
-    content: "";
-    position: absolute;
-    left: -2.6rem;
-    top: 0.5rem;
-    width: 1.2rem;
-    height: 1.2rem;
-    background: var(--vp-c-brand);
-    border-radius: 50%;
-    border: 3px solid var(--vp-c-bg);
-}
-
-.home-container {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-/* Engineering Solutions Cards (Restored Elegance) */
+/* Grid for 3 Cards */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        /* Stack vertically on mobile */
+    }
 }
 
 .card {
@@ -89,44 +67,51 @@ body {
     margin: 0 0 1rem 0;
     font-size: 1.4rem;
     color: var(--vp-c-brand);
+    white-space: nowrap;
 }
 
-/* Contact Cards (Restored Elegance) */
-.contact-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
+/* Signature Styling */
+.letter-signature {
+    margin-top: 3rem;
+    padding-left: 50%;
+    /* Indent 50% */
 }
 
-.contact-card {
-    background: var(--vp-c-bg-soft);
-    border: 1px solid var(--vp-c-divider);
-    border-radius: 12px;
-    padding: 1.2rem 2rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    text-decoration: none !important;
-    min-width: 250px;
-    transition: all 0.3s ease;
+/* Mobile Signature Adjustment */
+@media (max-width: 600px) {
+    .letter-signature {
+        padding-left: 20%;
+        /* Less indentation on small screens */
+    }
 }
 
-.contact-card:hover {
-    border-color: var(--vp-c-brand);
-    background: var(--vp-c-bg-alt);
+.nowrap {
+    white-space: nowrap;
 }
 
-.contact-card span {
-    font-size: 0.9rem;
-    color: var(--vp-c-text-2);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
+/* Print Styles */
+@media print {
 
-.contact-card b {
-    font-size: 1.1rem;
-    color: var(--vp-c-text-1);
+    .no-print,
+    .VPNav,
+    .VPFooter,
+    .VPDocFooter,
+    .VPLocalNav,
+    .VPSidebar,
+    .VPNavBar {
+        display: none !important;
+    }
+
+    .letter-print-container {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: none !important;
+    }
+
+    /* Ensure signature stays right/indented in print */
+    .letter-signature {
+        padding-left: 50% !important;
+    }
 }
 
 /* H1 Headers */

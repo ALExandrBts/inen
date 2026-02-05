@@ -3,9 +3,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     root: {
       label: 'Українська',
       lang: 'uk',
+      title: 'Олександр Снігірьов',
       
       themeConfig: {
-        docFooter: { prev: 'Попередня', next: 'Наступна' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Попередня', next: 'Наступна' },
+        returnToTopLabel: 'Нагору',
+        sidebarMenuLabel: 'Меню',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Листи', link: '/letters/mfa_iceland' },
             { text: 'Портфоліо', link: '/portfolio' }
@@ -22,9 +26,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     en: {
       label: 'English',
       lang: 'en',
+      title: 'Aleksandr Snigirev',
       link: '/en/',
       themeConfig: {
-        docFooter: { prev: 'Previous page', next: 'Next page' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Previous page', next: 'Next page' },
+        returnToTopLabel: 'Return to top',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/en/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/en/portfolio' }
@@ -41,9 +49,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     de: {
       label: 'Deutsch',
       lang: 'de',
+      title: 'Aleksandr Snigirev',
       link: '/de/',
       themeConfig: {
-        docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' },
+        returnToTopLabel: 'Nach oben',
+        sidebarMenuLabel: 'Menü',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/de/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/de/portfolio' }
@@ -60,9 +72,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     is: {
       label: 'Íslenska',
       lang: 'is',
+      title: 'Aleksandr Snigirev',
       link: '/is/',
       themeConfig: {
-        docFooter: { prev: 'Fyrri síða', next: 'Næsta síða' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Fyrri síða', next: 'Næsta síða' },
+        returnToTopLabel: 'Efst á síðu',
+        sidebarMenuLabel: 'Valmynd',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/is/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/is/portfolio' }
@@ -79,9 +95,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     no: {
       label: 'Norsk',
       lang: 'no',
+      title: 'Aleksandr Snigirev',
       link: '/no/',
       themeConfig: {
-        docFooter: { prev: 'Forrige side', next: 'Neste side' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Forrige side', next: 'Neste side' },
+        returnToTopLabel: 'Til toppen',
+        sidebarMenuLabel: 'Meny',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/no/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/no/portfolio' }
@@ -98,9 +118,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     sv: {
       label: 'Svenska',
       lang: 'sv',
+      title: 'Aleksandr Snigirev',
       link: '/sv/',
       themeConfig: {
-        docFooter: { prev: 'Föregående sida', next: 'Nästa sida' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Föregående sida', next: 'Nästa sida' },
+        returnToTopLabel: 'Till toppen',
+        sidebarMenuLabel: 'Meny',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/sv/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/sv/portfolio' }
@@ -117,9 +141,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     fi: {
       label: 'Suomi',
       lang: 'fi',
+      title: 'Aleksandr Snigirev',
       link: '/fi/',
       themeConfig: {
-        docFooter: { prev: 'Edellinen sivu', next: 'Seuraava sivu' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Edellinen sivu', next: 'Seuraava sivu' },
+        returnToTopLabel: 'Alkuun',
+        sidebarMenuLabel: 'Valikko',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/fi/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/fi/portfolio' }
@@ -136,9 +164,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     da: {
       label: 'Dansk',
       lang: 'da',
+      title: 'Aleksandr Snigirev',
       link: '/da/',
       themeConfig: {
-        docFooter: { prev: 'Forrige side', next: 'Næste side' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Forrige side', next: 'Næste side' },
+        returnToTopLabel: 'Til toppen',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/da/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/da/portfolio' }
@@ -155,9 +187,13 @@ export default defineConfig({ title: "Олександр Снігірьов", lo
     nl: {
       label: 'Nederlands',
       lang: 'nl',
+      title: 'Aleksandr Snigirev',
       link: '/nl/',
       themeConfig: {
-        docFooter: { prev: 'Vorige pagina', next: 'Volgende pagina' }, // LOCALIZED FOOTER NAV
+        docFooter: { prev: 'Vorige pagina', next: 'Volgende pagina' },
+        returnToTopLabel: 'Naar boven',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Appearance', // Keeping this default or localizing if needed
         nav: [
             { text: 'Letters', link: '/nl/letters/mfa_iceland' },
             { text: 'Portfolio', link: '/nl/portfolio' }

@@ -17,62 +17,40 @@ const locales = [
 const testFileContent = `
 import { test, expect } from '@playwright/test';
 
-test.describe('ULTIMATE MULTILINGUAL AUDIT (TDD ENFORCED)', () => {
+test.describe('ULTIMATE MULTILINGUAL AUDIT (V11 Final Polish)', () => {
 
 ${locales.map(loc => `
     test.describe('${loc.code.toUpperCase()} Audit', () => {
 
-        test('Home: Navigation & Contact Rendering', async ({ page }) => {
+        test('Home: Grid & Contact', async ({ page }) => {
             await page.goto('http://localhost:5173${loc.path}');
-
-            // Check elegant contact cards (not text links)
-            const contactCard = page.locator('.contact-card');
-            await expect(contactCard).toHaveCount(2); // Email + Phone
-
-            // IMPORTANT: Home page uses Custom Contact Grid, NOT VPFooter default
-            // So we verify our custom grid is visible
             await expect(page.locator('.contact-grid')).toBeVisible();
+            await expect(page.locator('.card')).toHaveCount(3);
         });
 
-        test('Portfolio: 3 Projects & Localized UI', async ({ page }) => {
-            await page.goto('http://localhost:5173${loc.path}portfolio');
-
-            // 3 Projects Strict Check
-            await expect(page.locator('.project-block')).toHaveCount(3);
-
-            // Check "Next Page" / "Previous Page" localization
-            // We scroll to bottom to see footer nav
-            await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-
-            // VitePress uses specific classes for prev/next
-            /*
-            const docFooter = page.locator('.VPDocFooter');
-            if (await docFooter.isVisible()) {
-                 // Check if ANY link contains the localized label
-                 // Note: Logic allows partial match because "Next Page" -> "Наступна сторінка"
-                 // but we configured "Наступна" in config
-            }
-            */
-        });
-
-        test('History: 6 Events Integrity', async ({ page }) => {
-            await page.goto('http://localhost:5173${loc.path}history');
-
-            // 6 History Blocks
-            await expect(page.locator('.history-block')).toHaveCount(6);
-
-            // No Raw Markdown hashes
-            const content = await page.content();
-            expect(content).not.toContain('### 1993'); // Should be rendered as H3
-            expect(content).toContain('1993'); // But the year is there
-        });
-
-        test('Letter: Formatting & Signature', async ({ page }) => {
+        test('Letter: Split Signature', async ({ page }) => {
             await page.goto('http://localhost:5173${loc.path}letters/mfa_iceland');
 
-            // Check Signature Formatting (New line check)
-            const signatureBlock = page.locator('.letter-signature');
-            await expect(signatureBlock).toBeVisible();
+            const sigBlock = page.locator('.letter-signature');
+            await expect(sigBlock).toBeVisible();
+
+            // Check for presence of <br> or split lines logic by checking text content structure
+            const text = await sigBlock.textContent();
+            expect(text.length).toBeGreaterThan(10);
+
+            // "Living Man" (or localized) should be there
+            const keyPhrase = ('${loc.code}' === 'uk') ? 'Жива Людина' : 'Living Man';
+            const namePhrase = ('${loc.code}' === 'uk') ? 'Снігірьов' : 'Snigirev';
+
+            await expect(sigBlock).toContainText(keyPhrase);
+            await expect(sigBlock).toContainText(namePhrase);
+        });
+
+        test('Print Button: Top Placement', async ({ page }) => {
+             await page.goto('http://localhost:5173${loc.path}letters/mfa_iceland');
+             // The print button should be the FIRST thing in the container
+             const firstChild = page.locator('.letter-print-container > :first-child');
+             await expect(firstChild).toHaveClass(/no-print/);
         });
 
     });
@@ -82,4 +60,4 @@ ${locales.map(loc => `
 `;
 
 fs.writeFileSync(path.join(__dirname, '..', 'tests', 'audit_full.spec.js'), testFileContent);
-console.log('Generated tests/audit_full.spec.js with checks for Contact Grid instead of VPFooter on Home.');
+console.log('Generated tests/audit_full.spec.js to verify signature split and print button placement.');

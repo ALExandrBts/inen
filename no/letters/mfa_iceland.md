@@ -6,6 +6,11 @@ title: DECLARATION OF PRESENCE OF A LIVING MAN
 # DECLARATION OF PRESENCE OF A LIVING MAN
 
 <div class="letter-print-container vp-doc">
+
+<div class="no-print" style="margin-bottom: 2rem;">
+<a href="javascript:window.print()" class="link">Print Document 🖨️</a>
+</div>
+
 <p><b>To the Ministry of Foreign Affairs of Iceland and international human rights organizations.</b></p>
 <div class="letter-body-content">
 
@@ -32,17 +37,17 @@ I officially appeal to the Government and People of the Republic of Iceland, as 
 
 My developments (UCTS, Solar-H2) are aimed at solving global energy and environmental problems. I am ready to direct my intellectual potential to the development of Iceland and the World.
 
-[View Portfolio of Engineering Solutions](../portfolio)
-[Read full detailed history of persecution](../history)
+- [View Portfolio of Engineering Solutions](../portfolio)
+- [Read full detailed history of persecution](../history)
 
 </div>
 
-<div class="letter-signature" style="margin-top: 3rem; border-top: 1px solid #ccc; padding-top: 1rem;">
+<div class="letter-signature">
 <p>Date of signing: February 5, 2024</p>
-<p><b>Signature: Aleksandr Snigirev, Living Man</b></p>
+<p>
+    <b>Signature:</b> <span class="nowrap">Aleksandr Snigirev</span>, <br/>
+    <span class="nowrap"><b>Living Man</b></span>
+</p>
 </div>
 
-<div class="no-print" style="margin-top: 2rem;">
-<a href="javascript:window.print()" class="link">Print Document 🖨️</a>
-</div>
 </div>
