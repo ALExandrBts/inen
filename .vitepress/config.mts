@@ -2,8 +2,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    title: "Aleksandr Snigirev",
-    description: "Dossier & Claim of Right",
+    title: "Олександр Снігірьов",
+    description: "Досьє та Заява про Права",
 
     head: [
         ['link', { rel: 'icon', href: '/assets/alexander.jpeg' }]
@@ -11,44 +11,19 @@ export default defineConfig({
 
     locales: {
         root: {
-            label: 'English',
-            lang: 'en',
-            themeConfig: {
-                nav: [
-                    { text: 'Letters', link: '/letters/mfa_iceland' },
-                    { text: 'Portfolio', link: '/portfolio' }
-                ],
-                sidebar: [
-                    {
-                        text: 'Dossier',
-                        items: [
-                            { text: 'Story & Status', link: '/' },
-                            { text: 'Engineering Portfolio', link: '/portfolio' }
-                        ]
-                    },
-                    {
-                        text: 'Official Letters',
-                        items: [
-                            { text: 'Iceland MFA', link: '/letters/mfa_iceland' }
-                        ]
-                    }
-                ]
-            }
-        },
-        uk: {
             label: 'Українська',
             lang: 'uk',
             themeConfig: {
                 nav: [
                     { text: 'Листи', link: '/uk/letters/mfa_iceland' },
-                    { text: 'Портфоліо', link: '/uk/portfolio' }
+                    { text: 'Портфоліо', link: '/portfolio' }
                 ],
                 sidebar: [
                     {
                         text: 'Досьє',
                         items: [
-                            { text: 'Історія та Статус', link: '/uk/' },
-                            { text: 'Інженерне Портфоліо', link: '/uk/portfolio' }
+                            { text: 'Історія та Статус', link: '/' },
+                            { text: 'Інженерне Портфоліо', link: '/portfolio' }
                         ]
                     },
                     {
@@ -63,6 +38,32 @@ export default defineConfig({
                 darkModeSwitchLabel: 'Тема',
                 sidebarMenuLabel: 'Меню',
                 returnToTopLabel: 'Нагору'
+            }
+        },
+        en: {
+            label: 'English',
+            lang: 'en',
+            link: '/en/',
+            themeConfig: {
+                nav: [
+                    { text: 'Letters', link: '/en/letters/mfa_iceland' },
+                    { text: 'Portfolio', link: '/en/portfolio' }
+                ],
+                sidebar: [
+                    {
+                        text: 'Dossier',
+                        items: [
+                            { text: 'Story & Status', link: '/en/' },
+                            { text: 'Engineering Portfolio', link: '/en/portfolio' }
+                        ]
+                    },
+                    {
+                        text: 'Official Letters',
+                        items: [
+                            { text: 'Iceland MFA', link: '/en/letters/mfa_iceland' }
+                        ]
+                    }
+                ]
             }
         },
         de: {
@@ -87,12 +88,7 @@ export default defineConfig({
                             { text: 'Deutschland Appell', link: '/de/letters/germany_appeal' }
                         ]
                     }
-                ],
-                outline: { label: 'Auf dieser Seite' },
-                docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' },
-                darkModeSwitchLabel: 'Erscheinungsbild',
-                sidebarMenuLabel: 'Menü',
-                returnToTopLabel: 'Zurück nach oben'
+                ]
             }
         },
         is: {
@@ -100,7 +96,7 @@ export default defineConfig({
             lang: 'is',
             themeConfig: {
                 nav: [
-                    { text: 'Bréf', link: '/letters/mfa_iceland' }, // Fallback to EN letter if not translated
+                    { text: 'Bréf', link: '/letters/mfa_iceland' },
                     { text: 'Verkefni', link: '/is/portfolio' }
                 ]
             }
