@@ -1,103 +1,63 @@
 ---
 layout: home
+title: Aleksandr Snigirev
 
 hero:
-  name: "Олександр Снігірьов"
-  text: "Жива Людина. Інженер. Суверен."
-  tagline: "Я не ресурс. Я творець."
+  name: "Aleksandr Snigirev"
+  text: "Levende Menneske. Ingeniør. Suveren."
+  tagline: "Jeg er ikke en ressurs. Jeg er en skaper."
   image:
     src: /assets/alexander.jpeg
-    alt: Олександр Снігірьов
+    alt: Aleksandr Snigirev
   actions:
     - theme: brand
-      text: Заява про Присутність
-      link: /uk/letters/mfa_iceland
+      text: Nærværserklæring
+      link: /no/letters/mfa_iceland
     - theme: alt
-      text: Відкрити Портфоліо
-      link: /portfolio
+      text: Se Portefølje
+      link: /no/portfolio
 
 features:
-  - title: "Суверен"
-    details: "Відновлення статусу Живої Людини за Природним Правом. Відмова від фікції 'Персона' (ресурс/раб), нав'язаної корпоративними державами."
+  - title: "Den Suverene"
+    details: "Gjenvinning av status som Levende Menneske under Naturrett. Avvisning av 'Persona'-fiksjonen."
     icon: ⚖️
-  - title: "Інженер"
-    details: "Автор проєктів UCTS (Керамічні акумулятори), Solar-H2 (Гібридні судна) та Moss Tile (Еко-покрівля). Будую майбутнє енергетики."
+  - title: "Ingeniøren"
+    details: "Skaper av UCTS, Solar-H2 og Moss Tile. Jeg bygger fremtidens energi."
     icon: 🛠️
-  - title: "Той, що вижив"
-    details: "Пройшов крізь війну та системний гніт. Від Донбасу (2014) та поліцейського свавілля (2022) до бюрократичних тортур у Німеччині (2024)."
+  - title: "Overlevende"
+    details: "Overlevende fra folkemord og krig. Fra Donbass til tysk byråkrati."
     icon: 🔥
 ---
 
-<style>
-  :root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-  }
-</style>
-
-## Хронологія Несправедливості
+## Urettferdighetens Tidslinje
 
 <div class="timeline">
   <div class="event">
     <div class="year">1993-2001</div>
     <div class="content">
-      <h3>Пастка подвійного громадянства</h3>
-      <p>Отримав два паспорти (Україна/РФ) дитиною під час розвалу СРСР. Юридична колізія, що стала зброєю проти мене.</p>
+      <p>Caught in the collapse of the USSR.</p>
     </div>
   </div>
   <div class="event">
     <div class="year">2014</div>
     <div class="content">
-      <h3>Війна на Донбасі</h3>
-      <p>Втрата дому та родини. Початок поневірянь через конфлікт, розпалений корпоративними інтересами.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2022</div>
-    <div class="content">
-      <h3>Львівський інцидент</h3>
-      <p>Тікаючи від війни, зустрів внутрішній терор. Поліція (Бібрка) грабує біженця, погрожує розстрілом за "не той" паспорт. Держава стає хижаком.</p>
+      <p>War in Donbass.</p>
     </div>
   </div>
   <div class="event">
     <div class="year">2024</div>
     <div class="content">
-      <h3>Німецький холод</h3>
-      <p>Відмова у медичній допомозі при інсультному стані. Поліція викидає на мороз без одягу. Штраф за те, що став жертвою нападу.</p>
-    </div>
-  </div>
-  <div class="event">
-    <div class="year">2026</div>
-    <div class="content">
-      <h3>Депортація = Смерть</h3>
-      <p>Відмова у праві на працю. Наказ про депортацію на війну. <b>"Це нагадує Німеччину 1930-х",</b> де жертва платила за власну страту.</p>
+      <p>Systemic oppression and bureaucratic torture.</p>
     </div>
   </div>
 </div>
 
 <div id="portfolio" style="margin-top: 4rem;"></div>
 
-## Інженерні Рішення
+## Manifesto
 
-<div class="grid">
-  <div class="card" onclick="window.location.href='https://ucts.solutions'">
-    <h3>🌱 UCTS</h3>
-    <p><b>Керамічні теплові акумулятори.</b> Перетворюю токсичний червоний шлам на енергію ($13.6/kWh). <br><a href="https://ucts.solutions">ucts.solutions</a></p>
-  </div>
-  <div class="card" onclick="window.location.href='https://h2gen.legalgreenplanet.tech'">
-    <h3>⚡ Solar-H₂ Boost</h3>
-    <p><b>Гібридні баржі.</b> Водень + Сонце для річкового флоту. <br><a href="https://h2gen.legalgreenplanet.tech">h2gen.legalgreenplanet.tech</a></p>
-  </div>
-  <div class="card" onclick="window.location.href='https://moss.legalgreenplanet.tech'">
-    <h3>🏠 Moss Tile</h3>
-    <p><b>Жива покрівля.</b> Біо-композитна черепиця для північного клімату. <br><a href="https://moss.legalgreenplanet.tech">moss.legalgreenplanet.tech</a></p>
-  </div>
-</div>
-
-## Маніфест
-
-> "Ми мусимо врятувати себе як людей, щоб врятувати людство. Система чавить нас, як жорна зерно. Я відмовляюся бути борошном. Я — зерно, що проросте."
+> "Vi må redde oss selv som mennesker for å redde menneskeheten."
 
 ---
 
-*Контакт:* [GitHub](https://github.com/ALExandrBts)
+*Contact:* [GitHub](https://github.com/ALExandrBts)

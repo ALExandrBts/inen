@@ -80,15 +80,15 @@ features:
 ## Engineering Solutions
 
 <div class="grid">
-  <div class="card" onclick="window.open('https://ucts.solutions', '_blank')">
+  <div class="card" onclick=\"window.open('https://ucts.solutions', '_blank')\">
     <h3>🌱 UCTS</h3>
     <p><b>Upcycled Ceramic Thermal Storage.</b> Turning toxic red mud into energy ($13.6/kWh). <br><a href="https://ucts.solutions" target="_blank">ucts.solutions</a></p>
   </div>
-  <div class="card" onclick="window.open('https://h2gen.legalgreenplanet.tech', '_blank')">
+  <div class="card" onclick=\"window.open('https://h2gen.legalgreenplanet.tech', '_blank')\">
     <h3>⚡ Solar-H₂ Boost</h3>
     <p><b>Hybrid Maritime Propulsion.</b> Hydrogen injection + Solar panels. <br><a href="https://h2gen.legalgreenplanet.tech" target="_blank">h2gen.legalgreenplanet.tech</a></p>
   </div>
-  <div class="card" onclick="window.open('https://moss.legalgreenplanet.tech', '_blank')">
+  <div class="card" onclick=\"window.open('https://moss.legalgreenplanet.tech', '_blank')\">
     <h3>🏠 Moss Tile</h3>
     <p><b>Living Roof System.</b> Eco-composite tiles for Nordic climates. <br><a href="https://moss.legalgreenplanet.tech" target="_blank">moss.legalgreenplanet.tech</a></p>
   </div>

@@ -1,0 +1,367 @@
+
+Running 24 tests using 1 worker
+
+  ✓   1 tests/generated_comprehensive.spec.js:5:9 › Global Visuals › Starfield Canvas exists and is animated (497ms)
+  ✓   2 tests/generated_comprehensive.spec.js:12:9 › Global Visuals › Light mode has Sky animation check (181ms)
+  ✓   3 tests/generated_comprehensive.spec.js:27:13 › Multilingual Integrity & Link Soundness › UK Locale › Home Navigation & Core Links (265ms)
+  ✓   4 tests/generated_comprehensive.spec.js:54:13 › Multilingual Integrity & Link Soundness › UK Locale › Page Health: /portfolio (327ms)
+  ✓   5 tests/generated_comprehensive.spec.js:81:13 › Multilingual Integrity & Link Soundness › UK Locale › Page Health: /letters/mfa_iceland (337ms)
+  ✓   6 tests/generated_comprehensive.spec.js:112:13 › Multilingual Integrity & Link Soundness › EN Locale › Home Navigation & Core Links (227ms)
+  ✘   7 tests/generated_comprehensive.spec.js:139:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/portfolio (277ms)
+  ✘   8 tests/generated_comprehensive.spec.js:166:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/letters/mfa_iceland (338ms)
+  ✓   9 tests/generated_comprehensive.spec.js:197:13 › Multilingual Integrity & Link Soundness › DE Locale › Home Navigation & Core Links (375ms)
+  ✘  10 tests/generated_comprehensive.spec.js:224:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/portfolio (316ms)
+  ✘  11 tests/generated_comprehensive.spec.js:251:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/letters/germany_appeal (365ms)
+  ✓  12 tests/generated_comprehensive.spec.js:282:13 › Multilingual Integrity & Link Soundness › IS Locale › Home Navigation & Core Links (311ms)
+  ✘  13 tests/generated_comprehensive.spec.js:309:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/portfolio (267ms)
+  ✘  14 tests/generated_comprehensive.spec.js:336:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/letters/mfa_iceland (422ms)
+  ✘  15 tests/generated_comprehensive.spec.js:367:13 › Multilingual Integrity & Link Soundness › NO Locale › Home Navigation & Core Links (267ms)
+  ✘  16 tests/generated_comprehensive.spec.js:393:13 › Multilingual Integrity & Link Soundness › NO Locale › Page Health: /no/portfolio (295ms)
+  ✘  17 tests/generated_comprehensive.spec.js:424:13 › Multilingual Integrity & Link Soundness › SV Locale › Home Navigation & Core Links (270ms)
+  ✘  18 tests/generated_comprehensive.spec.js:450:13 › Multilingual Integrity & Link Soundness › SV Locale › Page Health: /sv/portfolio (290ms)
+  ✘  19 tests/generated_comprehensive.spec.js:481:13 › Multilingual Integrity & Link Soundness › FI Locale › Home Navigation & Core Links (271ms)
+  ✘  20 tests/generated_comprehensive.spec.js:507:13 › Multilingual Integrity & Link Soundness › FI Locale › Page Health: /fi/portfolio (341ms)
+  ✘  21 tests/generated_comprehensive.spec.js:538:13 › Multilingual Integrity & Link Soundness › DA Locale › Home Navigation & Core Links (275ms)
+  ✘  22 tests/generated_comprehensive.spec.js:564:13 › Multilingual Integrity & Link Soundness › DA Locale › Page Health: /da/portfolio (288ms)
+  ✘  23 tests/generated_comprehensive.spec.js:595:13 › Multilingual Integrity & Link Soundness › NL Locale › Home Navigation & Core Links (274ms)
+  ✘  24 tests/generated_comprehensive.spec.js:621:13 › Multilingual Integrity & Link Soundness › NL Locale › Page Health: /nl/portfolio (313ms)
+
+
+  1) tests/generated_comprehensive.spec.js:139:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /en/portfolio should contain locale /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/en/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      157 |                    // Ensure internal link contains locale prefix
+      158 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 159 |                       expect(link, `Link ${link} on /en/portfolio should contain locale /en/`).toContain('/en/');
+          |                                                                                                ^
+      160 |                    }
+      161 |                 }
+      162 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:159:96
+
+    Error Context: test-results/tests-generated_comprehens-a0d29-le-Page-Health-en-portfolio/error-context.md
+
+  2) tests/generated_comprehensive.spec.js:166:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/letters/mfa_iceland 
+
+    Error: Link http://localhost:5173/letters/mfa_iceland.html on /en/letters/mfa_iceland should contain locale /en/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/en/"[39m
+    Received string:    [31m"http://localhost:5173/letters/mfa_iceland.html"[39m
+
+      184 |                    // Ensure internal link contains locale prefix
+      185 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 186 |                       expect(link, `Link ${link} on /en/letters/mfa_iceland should contain locale /en/`).toContain('/en/');
+          |                                                                                                          ^
+      187 |                    }
+      188 |                 }
+      189 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:186:106
+
+    Error Context: test-results/tests-generated_comprehens-10710-alth-en-letters-mfa-iceland/error-context.md
+
+  3) tests/generated_comprehensive.spec.js:224:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /de/portfolio should contain locale /de/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/de/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      242 |                    // Ensure internal link contains locale prefix
+      243 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 244 |                       expect(link, `Link ${link} on /de/portfolio should contain locale /de/`).toContain('/de/');
+          |                                                                                                ^
+      245 |                    }
+      246 |                 }
+      247 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:244:96
+
+    Error Context: test-results/tests-generated_comprehens-0e5af-le-Page-Health-de-portfolio/error-context.md
+
+  4) tests/generated_comprehensive.spec.js:251:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/letters/germany_appeal 
+
+    Error: Link http://localhost:5173/letters/germany_appeal.html on /de/letters/germany_appeal should contain locale /de/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/de/"[39m
+    Received string:    [31m"http://localhost:5173/letters/germany_appeal.html"[39m
+
+      269 |                    // Ensure internal link contains locale prefix
+      270 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 271 |                       expect(link, `Link ${link} on /de/letters/germany_appeal should contain locale /de/`).toContain('/de/');
+          |                                                                                                             ^
+      272 |                    }
+      273 |                 }
+      274 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:271:109
+
+    Error Context: test-results/tests-generated_comprehens-c1941-h-de-letters-germany-appeal/error-context.md
+
+  5) tests/generated_comprehensive.spec.js:309:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /is/portfolio should contain locale /is/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/is/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      327 |                    // Ensure internal link contains locale prefix
+      328 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 329 |                       expect(link, `Link ${link} on /is/portfolio should contain locale /is/`).toContain('/is/');
+          |                                                                                                ^
+      330 |                    }
+      331 |                 }
+      332 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:329:96
+
+    Error Context: test-results/tests-generated_comprehens-98e85-le-Page-Health-is-portfolio/error-context.md
+
+  6) tests/generated_comprehensive.spec.js:336:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/letters/mfa_iceland 
+
+    Error: Link http://localhost:5173/letters/mfa_iceland.html on /is/letters/mfa_iceland should contain locale /is/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/is/"[39m
+    Received string:    [31m"http://localhost:5173/letters/mfa_iceland.html"[39m
+
+      354 |                    // Ensure internal link contains locale prefix
+      355 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 356 |                       expect(link, `Link ${link} on /is/letters/mfa_iceland should contain locale /is/`).toContain('/is/');
+          |                                                                                                          ^
+      357 |                    }
+      358 |                 }
+      359 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:356:106
+
+    Error Context: test-results/tests-generated_comprehens-2ea9b-alth-is-letters-mfa-iceland/error-context.md
+
+  7) tests/generated_comprehensive.spec.js:367:13 › Multilingual Integrity & Link Soundness › NO Locale › Home Navigation & Core Links 
+
+    Error: Locale no button /uk/letters/mfa_iceland.html must be localized
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/no/"[39m
+    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+
+      382 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
+      383 |                     } else {
+    > 384 |                         expect(href, `Locale no button ${href} must be localized`).toContain('/no/');
+          |                                                                                    ^
+      385 |                     }
+      386 |                     const resp = await page.request.get('http://localhost:5173' + href);
+      387 |                     expect(resp.status(), `Localized hero button link ${href} is broken on no`).toBe(200);
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:384:84
+
+    Error Context: test-results/tests-generated_comprehens-1365d--Home-Navigation-Core-Links/error-context.md
+
+  8) tests/generated_comprehensive.spec.js:393:13 › Multilingual Integrity & Link Soundness › NO Locale › Page Health: /no/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /no/portfolio should contain locale /no/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/no/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      411 |                    // Ensure internal link contains locale prefix
+      412 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 413 |                       expect(link, `Link ${link} on /no/portfolio should contain locale /no/`).toContain('/no/');
+          |                                                                                                ^
+      414 |                    }
+      415 |                 }
+      416 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:413:96
+
+    Error Context: test-results/tests-generated_comprehens-29228-le-Page-Health-no-portfolio/error-context.md
+
+  9) tests/generated_comprehensive.spec.js:424:13 › Multilingual Integrity & Link Soundness › SV Locale › Home Navigation & Core Links 
+
+    Error: Locale sv button /uk/letters/mfa_iceland.html must be localized
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/sv/"[39m
+    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+
+      439 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
+      440 |                     } else {
+    > 441 |                         expect(href, `Locale sv button ${href} must be localized`).toContain('/sv/');
+          |                                                                                    ^
+      442 |                     }
+      443 |                     const resp = await page.request.get('http://localhost:5173' + href);
+      444 |                     expect(resp.status(), `Localized hero button link ${href} is broken on sv`).toBe(200);
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:441:84
+
+    Error Context: test-results/tests-generated_comprehens-d7bf6--Home-Navigation-Core-Links/error-context.md
+
+  10) tests/generated_comprehensive.spec.js:450:13 › Multilingual Integrity & Link Soundness › SV Locale › Page Health: /sv/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /sv/portfolio should contain locale /sv/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/sv/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      468 |                    // Ensure internal link contains locale prefix
+      469 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 470 |                       expect(link, `Link ${link} on /sv/portfolio should contain locale /sv/`).toContain('/sv/');
+          |                                                                                                ^
+      471 |                    }
+      472 |                 }
+      473 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:470:96
+
+    Error Context: test-results/tests-generated_comprehens-c83f1-le-Page-Health-sv-portfolio/error-context.md
+
+  11) tests/generated_comprehensive.spec.js:481:13 › Multilingual Integrity & Link Soundness › FI Locale › Home Navigation & Core Links 
+
+    Error: Locale fi button /uk/letters/mfa_iceland.html must be localized
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/fi/"[39m
+    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+
+      496 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
+      497 |                     } else {
+    > 498 |                         expect(href, `Locale fi button ${href} must be localized`).toContain('/fi/');
+          |                                                                                    ^
+      499 |                     }
+      500 |                     const resp = await page.request.get('http://localhost:5173' + href);
+      501 |                     expect(resp.status(), `Localized hero button link ${href} is broken on fi`).toBe(200);
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:498:84
+
+    Error Context: test-results/tests-generated_comprehens-1e9b6--Home-Navigation-Core-Links/error-context.md
+
+  12) tests/generated_comprehensive.spec.js:507:13 › Multilingual Integrity & Link Soundness › FI Locale › Page Health: /fi/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /fi/portfolio should contain locale /fi/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/fi/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      525 |                    // Ensure internal link contains locale prefix
+      526 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 527 |                       expect(link, `Link ${link} on /fi/portfolio should contain locale /fi/`).toContain('/fi/');
+          |                                                                                                ^
+      528 |                    }
+      529 |                 }
+      530 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:527:96
+
+    Error Context: test-results/tests-generated_comprehens-d5bf6-le-Page-Health-fi-portfolio/error-context.md
+
+  13) tests/generated_comprehensive.spec.js:538:13 › Multilingual Integrity & Link Soundness › DA Locale › Home Navigation & Core Links 
+
+    Error: Locale da button /uk/letters/mfa_iceland.html must be localized
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/da/"[39m
+    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+
+      553 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
+      554 |                     } else {
+    > 555 |                         expect(href, `Locale da button ${href} must be localized`).toContain('/da/');
+          |                                                                                    ^
+      556 |                     }
+      557 |                     const resp = await page.request.get('http://localhost:5173' + href);
+      558 |                     expect(resp.status(), `Localized hero button link ${href} is broken on da`).toBe(200);
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:555:84
+
+    Error Context: test-results/tests-generated_comprehens-b43c3--Home-Navigation-Core-Links/error-context.md
+
+  14) tests/generated_comprehensive.spec.js:564:13 › Multilingual Integrity & Link Soundness › DA Locale › Page Health: /da/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /da/portfolio should contain locale /da/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/da/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      582 |                    // Ensure internal link contains locale prefix
+      583 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 584 |                       expect(link, `Link ${link} on /da/portfolio should contain locale /da/`).toContain('/da/');
+          |                                                                                                ^
+      585 |                    }
+      586 |                 }
+      587 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:584:96
+
+    Error Context: test-results/tests-generated_comprehens-2545a-le-Page-Health-da-portfolio/error-context.md
+
+  15) tests/generated_comprehensive.spec.js:595:13 › Multilingual Integrity & Link Soundness › NL Locale › Home Navigation & Core Links 
+
+    Error: Locale nl button /uk/letters/mfa_iceland.html must be localized
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/nl/"[39m
+    Received string:    [31m"/uk/letters/mfa_iceland.html"[39m
+
+      610 |                         expect(href, `UK button ${href} should not have /en/ prefix`).not.toContain('/en/');
+      611 |                     } else {
+    > 612 |                         expect(href, `Locale nl button ${href} must be localized`).toContain('/nl/');
+          |                                                                                    ^
+      613 |                     }
+      614 |                     const resp = await page.request.get('http://localhost:5173' + href);
+      615 |                     expect(resp.status(), `Localized hero button link ${href} is broken on nl`).toBe(200);
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:612:84
+
+    Error Context: test-results/tests-generated_comprehens-31651--Home-Navigation-Core-Links/error-context.md
+
+  16) tests/generated_comprehensive.spec.js:621:13 › Multilingual Integrity & Link Soundness › NL Locale › Page Health: /nl/portfolio 
+
+    Error: Link http://localhost:5173/portfolio.html on /nl/portfolio should contain locale /nl/
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected substring: [32m"/nl/"[39m
+    Received string:    [31m"http://localhost:5173/portfolio.html"[39m
+
+      639 |                    // Ensure internal link contains locale prefix
+      640 |                    if (link.includes('portfolio') || link.includes('letters')) {
+    > 641 |                       expect(link, `Link ${link} on /nl/portfolio should contain locale /nl/`).toContain('/nl/');
+          |                                                                                                ^
+      642 |                    }
+      643 |                 }
+      644 |             }
+        at /Users/i/src/apps/legalgreenplanet.tech/Olexander/tests/generated_comprehensive.spec.js:641:96
+
+    Error Context: test-results/tests-generated_comprehens-51d56-le-Page-Health-nl-portfolio/error-context.md
+
+  16 failed
+    tests/generated_comprehensive.spec.js:139:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/portfolio 
+    tests/generated_comprehensive.spec.js:166:13 › Multilingual Integrity & Link Soundness › EN Locale › Page Health: /en/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:224:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/portfolio 
+    tests/generated_comprehensive.spec.js:251:13 › Multilingual Integrity & Link Soundness › DE Locale › Page Health: /de/letters/germany_appeal 
+    tests/generated_comprehensive.spec.js:309:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/portfolio 
+    tests/generated_comprehensive.spec.js:336:13 › Multilingual Integrity & Link Soundness › IS Locale › Page Health: /is/letters/mfa_iceland 
+    tests/generated_comprehensive.spec.js:367:13 › Multilingual Integrity & Link Soundness › NO Locale › Home Navigation & Core Links 
+    tests/generated_comprehensive.spec.js:393:13 › Multilingual Integrity & Link Soundness › NO Locale › Page Health: /no/portfolio 
+    tests/generated_comprehensive.spec.js:424:13 › Multilingual Integrity & Link Soundness › SV Locale › Home Navigation & Core Links 
+    tests/generated_comprehensive.spec.js:450:13 › Multilingual Integrity & Link Soundness › SV Locale › Page Health: /sv/portfolio 
+    tests/generated_comprehensive.spec.js:481:13 › Multilingual Integrity & Link Soundness › FI Locale › Home Navigation & Core Links 
+    tests/generated_comprehensive.spec.js:507:13 › Multilingual Integrity & Link Soundness › FI Locale › Page Health: /fi/portfolio 
+    tests/generated_comprehensive.spec.js:538:13 › Multilingual Integrity & Link Soundness › DA Locale › Home Navigation & Core Links 
+    tests/generated_comprehensive.spec.js:564:13 › Multilingual Integrity & Link Soundness › DA Locale › Page Health: /da/portfolio 
+    tests/generated_comprehensive.spec.js:595:13 › Multilingual Integrity & Link Soundness › NL Locale › Home Navigation & Core Links 
+    tests/generated_comprehensive.spec.js:621:13 › Multilingual Integrity & Link Soundness › NL Locale › Page Health: /nl/portfolio 
+  8 passed (22.5s)

@@ -15,7 +15,7 @@ export default defineConfig({
             lang: 'uk',
             themeConfig: {
                 nav: [
-                    { text: 'Листи', link: '/uk/letters/mfa_iceland' },
+                    { text: 'Листи', link: '/letters/mfa_iceland' },
                     { text: 'Портфоліо', link: '/portfolio' }
                 ],
                 sidebar: [
@@ -29,15 +29,10 @@ export default defineConfig({
                     {
                         text: 'Офіційні Листи',
                         items: [
-                            { text: 'МЗС Ісландії', link: '/uk/letters/mfa_iceland' }
+                            { text: 'МЗС Ісландії', link: '/letters/mfa_iceland' }
                         ]
                     }
                 ],
-                outline: { label: 'На цій сторінці' },
-                docFooter: { prev: 'Попередня сторінка', next: 'Наступна сторінка' },
-                darkModeSwitchLabel: 'Тема',
-                sidebarMenuLabel: 'Меню',
-                returnToTopLabel: 'Нагору'
             }
         },
         en: {
@@ -96,16 +91,31 @@ export default defineConfig({
             lang: 'is',
             themeConfig: {
                 nav: [
-                    { text: 'Bréf', link: '/letters/mfa_iceland' },
+                    { text: 'Bréf', link: '/is/letters/mfa_iceland' },
                     { text: 'Verkefni', link: '/is/portfolio' }
+                ],
+                sidebar: [
+                    {
+                        text: 'Skjöl',
+                        items: [
+                            { text: 'Saga og Staða', link: '/is/' },
+                            { text: 'Verkefnasafn', link: '/is/portfolio' }
+                        ]
+                    },
+                    {
+                        text: 'Opinber Bréf',
+                        items: [
+                            { text: 'Mótmæli til Þýskalands', link: '/is/letters/germany_appeal' }
+                        ]
+                    }
                 ]
             }
         },
-        no: { label: 'Norsk', lang: 'no', themeConfig: { nav: [{ text: 'Portefølje', link: '/no/portfolio' }] } },
-        sv: { label: 'Svenska', lang: 'sv', themeConfig: { nav: [{ text: 'Portfölj', link: '/sv/portfolio' }] } },
-        fi: { label: 'Suomi', lang: 'fi', themeConfig: { nav: [{ text: 'Portfolio', link: '/fi/portfolio' }] } },
-        da: { label: 'Dansk', lang: 'da', themeConfig: { nav: [{ text: 'Portefølje', link: '/da/portfolio' }] } },
-        nl: { label: 'Nederlands', lang: 'nl', themeConfig: { nav: [{ text: 'Portfolio', link: '/nl/portfolio' }] } }
+        no: { label: 'Norsk', lang: 'no', themeConfig: { nav: [{ text: 'Portefølje', link: '/no/portfolio' }], sidebar: [{ text: 'Portefølje', link: '/no/portfolio' }] } },
+        sv: { label: 'Svenska', lang: 'sv', themeConfig: { nav: [{ text: 'Portfölj', link: '/sv/portfolio' }], sidebar: [{ text: 'Portfölj', link: '/sv/portfolio' }] } },
+        fi: { label: 'Suomi', lang: 'fi', themeConfig: { nav: [{ text: 'Portfolio', link: '/fi/portfolio' }], sidebar: [{ text: 'Portfolio', link: '/fi/portfolio' }] } },
+        da: { label: 'Dansk', lang: 'da', themeConfig: { nav: [{ text: 'Portefølje', link: '/da/portfolio' }], sidebar: [{ text: 'Portefølje', link: '/da/portfolio' }] } },
+        nl: { label: 'Nederlands', lang: 'nl', themeConfig: { nav: [{ text: 'Portfolio', link: '/nl/portfolio' }], sidebar: [{ text: 'Portfolio', link: '/nl/portfolio' }] } }
     },
 
     themeConfig: {
@@ -115,6 +125,7 @@ export default defineConfig({
         footer: {
             message: 'Released under Natural Law.',
             copyright: 'Copyright © 2026 Aleksandr Snigirev'
-        }
+        },
+        outline: 'deep'
     }
 })
