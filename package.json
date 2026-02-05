@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/ALExandrBts/inen#readme",
   "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "playwright": "^1.58.1",
     "vitepress": "^1.6.4",
     "vue": "^3.5.27"
   }

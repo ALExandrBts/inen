@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: doc
 title: Engineering Portfolio
 ---
 
@@ -8,7 +8,7 @@ title: Engineering Portfolio
 I build solutions that solve critical global problems: energy waste, fuel inefficiency, and sustainable construction.
 
 ## 1. UCTS: Upcycled Ceramic Thermal Storage
-![UCTS](https://ucts.legalgreenplanet.tech/assets/ucts_logo.png)
+![UCTS](https://ucts.solutions/assets/ucts_logo.png)
 
 *   **Problem:** Aluminum production creates toxic "Red Mud" (177M tons/year). Renewable energy needs cheap storage.
 *   **Solution:** A patented ceramic material (**URC-1**) made from Red Mud.
@@ -16,7 +16,7 @@ I build solutions that solve critical global problems: energy waste, fuel ineffi
     *   Cost: **$13.6/kWh** (vs $150-300 for Li-Ion).
     *   Lifecycle: 40+ years.
 *   **Status:** Technology proven, R&D roadmap ready.
-*   **Link:** [ucts.legalgreenplanet.tech](https://ucts.legalgreenplanet.tech)
+*   **Link:** [ucts.solutions](https://ucts.solutions)
 
 ---
 
@@ -36,7 +36,7 @@ I build solutions that solve critical global problems: energy waste, fuel ineffi
     *   Made from recycled plastic and sand.
     *   Substrate for growing local mosses (Sphagnum).
     *   Insulates homes, captures carbon, restores biodiversity.
-*   **Link:** [mos.legalgreenplanet.tech](https://mos.legalgreenplanet.tech)
+*   **Link:** [moss.legalgreenplanet.tech](https://moss.legalgreenplanet.tech)
 
 ---
 

@@ -80,17 +80,17 @@ features:
 ## Інженерні Рішення
 
 <div class="grid">
-  <div class="card" onclick="window.location.href='https://ucts.legalgreenplanet.tech'">
+  <div class="card" onclick="window.location.href='https://ucts.solutions'">
     <h3>🌱 UCTS</h3>
-    <p><b>Керамічні теплові акумулятори.</b> Перетворюю токсичний червоний шлам на енергію ($13.6/kWh). <br><a href="https://ucts.legalgreenplanet.tech">ucts.legalgreenplanet.tech</a></p>
+    <p><b>Керамічні теплові акумулятори.</b> Перетворюю токсичний червоний шлам на енергію ($13.6/kWh). <br><a href="https://ucts.solutions">ucts.solutions</a></p>
   </div>
   <div class="card" onclick="window.location.href='https://h2gen.legalgreenplanet.tech'">
     <h3>⚡ Solar-H₂ Boost</h3>
     <p><b>Гібридні баржі.</b> Водень + Сонце для річкового флоту. <br><a href="https://h2gen.legalgreenplanet.tech">h2gen.legalgreenplanet.tech</a></p>
   </div>
-  <div class="card" onclick="window.location.href='https://mos.legalgreenplanet.tech'">
+  <div class="card" onclick="window.location.href='https://moss.legalgreenplanet.tech'">
     <h3>🏠 Moss Tile</h3>
-    <p><b>Жива покрівля.</b> Біо-композитна черепиця для північного клімату. <br><a href="https://mos.legalgreenplanet.tech">mos.legalgreenplanet.tech</a></p>
+    <p><b>Жива покрівля.</b> Біо-композитна черепиця для північного клімату. <br><a href="https://moss.legalgreenplanet.tech">moss.legalgreenplanet.tech</a></p>
   </div>
 </div>
 

@@ -1,4 +1,22 @@
 
+/* Base Theme Extension */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+}
+
+/* Cosmic Background Logic */
+html.dark body {
+  background: radial-gradient(circle at 10% 20%, rgb(20, 20, 30) 0%, rgb(5, 5, 10) 90%);
+  background-attachment: fixed;
+}
+
+html:not(.dark) body {
+  background: radial-gradient(circle at 50% 0%, #fffbf0 0%, #ffffff 60%);
+  background-attachment: fixed;
+}
+
+/* Timeline Styles */
 .timeline {
   border-left: 4px solid var(--vp-c-brand);
   margin-left: 1rem;
@@ -30,6 +48,7 @@
   margin-bottom: 0.5rem;
 }
 
+/* Card Grid Styles */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -42,11 +61,25 @@
   padding: 1.5rem;
   border-radius: 12px;
   border: 1px solid var(--vp-c-divider);
-  transition: transform 0.2s;
+  transition: transform 0.2s, border-color 0.2s;
+  cursor: pointer;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  border-color: var(--vp-c-brand);
+.card h3 {
+  margin-top: 0;
 }
 
+/* Motion Reduction for Accessibility */
+@media (prefers-reduced-motion: no-preference) {
+  .card:hover {
+    transform: translateY(-5px);
+    border-color: var(--vp-c-brand);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card:hover {
+    border-color: var(--vp-c-brand); /* Only color change, no movement */
+  }
+}
