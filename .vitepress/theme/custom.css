@@ -37,11 +37,9 @@ body {
     margin-top: 2rem;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
-        /* Stack vertically on mobile */
     }
 }
 
@@ -70,18 +68,51 @@ body {
     white-space: nowrap;
 }
 
+/* Timeline Stylings (RESTORED) */
+.timeline {
+    border-left: 3px solid var(--vp-c-brand);
+    /* The Line */
+    margin-left: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+/* The Dots */
+.event::before {
+    content: "";
+    position: absolute;
+    left: -2.6rem;
+    /* Position relative to padding-left of timeline */
+    top: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: var(--vp-c-brand);
+    border-radius: 50%;
+    border: 3px solid var(--vp-c-bg);
+    z-index: 2;
+}
+
+.year {
+    font-weight: bold;
+    color: var(--vp-c-brand);
+    margin-bottom: 0.5rem;
+}
+
 /* Signature Styling */
 .letter-signature {
     margin-top: 3rem;
     padding-left: 50%;
-    /* Indent 50% */
 }
 
-/* Mobile Signature Adjustment */
 @media (max-width: 600px) {
     .letter-signature {
         padding-left: 20%;
-        /* Less indentation on small screens */
     }
 }
 
@@ -108,7 +139,6 @@ body {
         max-width: none !important;
     }
 
-    /* Ensure signature stays right/indented in print */
     .letter-signature {
         padding-left: 50% !important;
     }
