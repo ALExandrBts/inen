@@ -42,23 +42,18 @@ features:
 </div>
 
 <div class="event">
-  <div class="year">2017</div>
-  <div class="content"><h3 class="no-hash">Engineering Breakthrough</h3><p>I did not give up. Creating the UCTS (Universal Carbon Transformation System) prototype was the result of my desire to turn destruction into energy. This is an engineering response to the ecological crisis.</p></div>
-</div>
-
-<div class="event">
-  <div class="year">2021</div>
-  <div class="content"><h3 class="no-hash">International Recognition</h3><p>The Solar-H2 patent was recognized as an innovative solution for the maritime industry. Global recognition of my developments confirmed that I am on the right path.</p></div>
-</div>
-
-<div class="event">
-  <div class="year">2023</div>
-  <div class="content"><h3 class="no-hash">Eco-Integration</h3><p>Development of Moss Tile — a natural cooling system for cities. Integrating technology into nature for a balanced and sovereign future.</p></div>
+  <div class="year">2020-2022</div>
+  <div class="content"><h3 class="no-hash">Human Rights Activism</h3><p>Active participation in the movement for medical cannabis legalization in Ukraine together with the "Rastamany Ukraine" bloggers. Fighting for people's right to alternative treatment and reduction of suffering.</p></div>
 </div>
 
 <div class="event">
   <div class="year">2024</div>
   <div class="content"><h3 class="no-hash">Systemic Oppression</h3><p>Today I fight against bureaucratic oppression in Germany. Deprivation of rights to medical care and movement is a modern form of torture aimed at breaking the will. But I am a Living Human, and I continue to create.</p></div>
+</div>
+
+<div class="event">
+  <div class="year">2025</div>
+  <div class="content"><h3 class="no-hash">Ecological Projects</h3><p>Development of three innovative solutions: UCTS (Universal Carbon Transformation System) — transforming toxic red mud into energy; Solar-H2 — hybrid maritime propulsion using hydrogen and solar power; Moss Tile — natural urban cooling system using moss. Integrating technology into nature for a sovereign future.</p></div>
 </div>
 </div>
 <div style="text-align: center; margin-top: 2rem;"><a href="./history" class="link">Read detailed history →</a></div>
