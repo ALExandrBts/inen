@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: "Statement of Presence"
-      link: ./en/letters/mfa_iceland
+      link: ./letters/mfa_iceland
     - theme: alt
       text: "View Portfolio"
-      link: ./en/portfolio
+      link: ./portfolio
 features:
   - title: "Sovereign"
     details: "Reclaiming the status of Living Human under Natural Law. Refusing the fiction of 'person'."
@@ -61,14 +61,14 @@ features:
   <div class="content"><h3 class="no-hash">Systemic Oppression</h3><p>Today I fight against bureaucratic oppression in Germany. Deprivation of rights to medical care and movement is a modern form of torture aimed at breaking the will. But I am a Living Human, and I continue to create.</p></div>
 </div>
 </div>
-<div style="text-align: center; margin-top: 2rem;"><a href="./en/history" class="link">Read detailed history →</a></div>
+<div style="text-align: center; margin-top: 2rem;"><a href="./history" class="link">Read detailed history →</a></div>
 </div>
 
 ## Engineering Solutions
 
 <script setup>
-import ProjectCard from '../.vitepress/theme/components/ProjectCard.vue'
-import ContactCard from '../.vitepress/theme/components/ContactCard.vue'
+import ProjectCard from '../../.vitepress/theme/components/ProjectCard.vue'
+import ContactCard from '../../.vitepress/theme/components/ContactCard.vue'
 </script>
 
 <ProjectCard />

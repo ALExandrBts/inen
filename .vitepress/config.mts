@@ -2,7 +2,17 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
 	title: "Олександр Снігірьов",
-	srcExclude: ['**/test-*.md'],
+	srcExclude: ['**/test-*.md', 'i18n/da/**', 'i18n/de/**', 'i18n/fi/**', 'i18n/is/**', 'i18n/nl/**', 'i18n/no/**', 'i18n/sv/**', 'i18n/uk/**'],
+	head: [
+		['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-XNRXJRYZWG' }],
+		['script', {}, `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XNRXJRYZWG');`]
+	],
+	rewrites: {
+		'i18n/:lang/:path*': ':lang/:path*'
+	},
 	locales: {
 		root: {
 			label: 'Українська',
@@ -12,56 +22,12 @@ export default defineConfig({
 				docFooter: { prev: 'Попередня', next: 'Наступна' },
 				returnToTopLabel: 'Нагору',
 				sidebarMenuLabel: 'Меню',
-				darkModeSwitchLabel: 'Appearance',
+				darkModeSwitchLabel: 'Вигляд',
 				nav: [
 					{ text: 'Листи', link: '/letters/mfa_iceland' },
 					{ text: 'Портфоліо', link: '/portfolio' }
 				],
 				sidebar: {
-					'/test-index': [
-						{
-							text: '🎨 Component Playground',
-							items: [
-								{ text: '🏠 Home', link: '/test-index' },
-								{ text: '⏰ Timeline', link: '/test-timeline' },
-								{ text: '🚀 Projects', link: '/test-projects' },
-								{ text: '📞 Contacts', link: '/test-contacts' }
-							]
-						}
-					],
-					'/test-timeline': [
-						{
-							text: '🎨 Component Playground',
-							items: [
-								{ text: '🏠 Home', link: '/test-index' },
-								{ text: '⏰ Timeline', link: '/test-timeline' },
-								{ text: '🚀 Projects', link: '/test-projects' },
-								{ text: '📞 Contacts', link: '/test-contacts' }
-							]
-						}
-					],
-					'/test-projects': [
-						{
-							text: '🎨 Component Playground',
-							items: [
-								{ text: '🏠 Home', link: '/test-index' },
-								{ text: '⏰ Timeline', link: '/test-timeline' },
-								{ text: '🚀 Projects', link: '/test-projects' },
-								{ text: '📞 Contacts', link: '/test-contacts' }
-							]
-						}
-					],
-					'/test-contacts': [
-						{
-							text: '🎨 Component Playground',
-							items: [
-								{ text: '🏠 Home', link: '/test-index' },
-								{ text: '⏰ Timeline', link: '/test-timeline' },
-								{ text: '🚀 Projects', link: '/test-projects' },
-								{ text: '📞 Contacts', link: '/test-contacts' }
-							]
-						}
-					],
 					'/': [
 						{
 							text: 'Досьє', items: [

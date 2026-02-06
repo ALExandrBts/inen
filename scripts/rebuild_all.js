@@ -61,7 +61,7 @@ const translations = {
     print_doc: "Роздрукувати документ 🖨️",
     contact_title: "Контакти Суверена",
     email: "legalgreenplanet@gmail.com",
-    phone: "+49 176 88173516",
+    phone: "+38 093 0569155",
     letter_mfa_title: "ДЕКЛАРАЦІЯ ПРИСУТНОСТІ ЖИВОЇ ЛЮДИНИ",
     letter_mfa_intro: "До уваги Міністерства закордонних справ Ісландії та міжнародних правозахисних організацій.",
     letter_mfa_body: `
@@ -136,7 +136,7 @@ const translations = {
     print_doc: "Print Document 🖨️",
     contact_title: "Sovereign Contacts",
     email: "legalgreenplanet@gmail.com",
-    phone: "+49 176 88173516",
+    phone: "+38 093 0569155",
     letter_mfa_title: "DECLARATION OF PRESENCE OF A LIVING MAN",
     letter_mfa_intro: "To the Ministry of Foreign Affairs of Iceland and international human rights organizations.",
     letter_mfa_body: `

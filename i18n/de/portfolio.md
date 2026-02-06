@@ -16,6 +16,6 @@ title: Engineering Portfolio
 <hr style="margin-top: 3rem;"/>
 <div class="contact-footer">
   <p>Sovereign Contacts</p>
-  <a href="mailto:legalgreenplanet@gmail.com">legalgreenplanet@gmail.com</a> | <a href="tel:+49 176 88173516">+49 176 88173516</a>
+  <a href="mailto:legalgreenplanet@gmail.com">legalgreenplanet@gmail.com</a> | <a href="tel:+38 093 0569155">+38 093 0569155</a>
 </div>
 </div>

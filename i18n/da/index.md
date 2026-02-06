@@ -75,7 +75,7 @@ features:
 
 <div class="contact-grid" style="margin-top: 3rem;">
   <a href="mailto:legalgreenplanet@gmail.com" class="contact-card"><span>✉️ Email</span><b>legalgreenplanet@gmail.com</b></a>
-  <a href="tel:+4917688173516" class="contact-card"><span>📱 Phone</span><b>+49 176 88173516</b></a>
+  <a href="tel:+4917688173516" class="contact-card"><span>📱 Phone</span><b>+38 093 0569155</b></a>
 </div>
 
 </div>
