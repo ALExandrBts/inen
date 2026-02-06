@@ -23,7 +23,7 @@ import{_ as a,o as i,c as n,ae as l}from"./chunks/framework.9XX48Qcy.js";const g
 <span class="line"><span>I am an engineer and creator of innovative solutions addressing global energy and environmental challenges (UCTS, Solar-H2, Moss Tile). I seek protection and the opportunity to contribute my intellectual potential to the development of Nordic countries and the World.</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>Full declaration and documentation:</span></span>
-<span class="line"><span>https://1810.legalgreenplanet.tech/en/letters/mfa_iceland.html?utm_source=mfa&amp;utm_medium=email&amp;utm_campaign=asylum_request_2025</span></span>
+<span class="line"><span>https://1810.legalgreenplanet.tech/en/?utm_source=mfa&amp;utm_medium=email&amp;utm_campaign=asylum_request_2025</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>I appeal to your nations&#39; deep traditions of respect for human rights and individual sovereignty.</span></span>
 <span class="line"><span></span></span>
