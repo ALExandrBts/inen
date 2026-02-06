@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "icon": "✉️",
+      "value": "legalgreenplanet@gmail.com",
+      "link": "mailto:legalgreenplanet@gmail.com"
+    },
+    {
+      "icon": "📱",
+      "value": "+38 093 0569155",
+      "link": "tel:+380930569155"
+    }
+  ],
+  "labels": {
+    "uk": [
+      "Email",
+      "Телефон"
+    ],
+    "en": [
+      "Email",
+      "Phone"
+    ],
+    "de": [
+      "E-Mail",
+      "Telefon"
+    ],
+    "is": [
+      "Netfang",
+      "Sími"
+    ],
+    "no": [
+      "E-post",
+      "Telefon"
+    ],
+    "sv": [
+      "E-post",
+      "Telefon"
+    ],
+    "fi": [
+      "Sähköposti",
+      "Puhelin"
+    ],
+    "da": [
+      "E-mail",
+      "Telefon"
+    ],
+    "nl": [
+      "E-mail",
+      "Telefoon"
+    ]
+  }
+}
