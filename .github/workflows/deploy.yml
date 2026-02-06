@@ -1,4 +1,3 @@
-
 name: Deploy to GitHub Pages
 
 on:
@@ -35,6 +34,9 @@ jobs:
 
       - name: Generate Content (Rebuild All)
         run: node scripts/rebuild_all.js
+
+      - name: Clean VitePress cache
+        run: rm -rf .vitepress/cache .vitepress/dist
 
       - name: Build with VitePress
         run: npm run docs:build
